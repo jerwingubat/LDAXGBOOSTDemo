@@ -7,4 +7,7 @@ xgboost
 scikit-learn
 fuzzywuzzy
 python-Levenshtein
-gunicorn 
+gunicorn
+eventlet
+flask-socketio
+werkzeug 
