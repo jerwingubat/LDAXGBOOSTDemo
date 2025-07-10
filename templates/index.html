@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Risk Prediction</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background: #f6f8fa;
+            color: #232a5c;
+        }
+        .sidebar {
+            background: #232a5c;
+            color: #fff;
+            min-height: 100vh;
+            padding-top: 2rem;
+            box-shadow: 2px 0 12px rgba(44,83,164,0.07);
+            position: sticky;
+            top: 0;
+        }
+        .sidebar .nav-link {
+            color: #fff;
+            font-weight: 500;
+            margin-bottom: 0.7rem;
+            border-radius: 0.7rem;
+            padding: 0.7rem 1.2rem;
+            transition: background 0.2s, color 0.2s;
+        }
+        .sidebar .nav-link.active, .sidebar .nav-link:focus {
+            background: #fff;
+            color: #232a5c;
+            font-weight: bold;
+            box-shadow: 0 2px 8px rgba(44,83,164,0.08);
+        }
+        .sidebar .nav-link:not(.active):hover {
+            background: #3c4a8a;
+            color: #fff;
+        }
+        .sidebar .nav-link.disabled {
+            color: #b0b0b0;
+            pointer-events: none;
+            background: none;
+        }
+        .topbar {
+            background: #232a5c;
+            color: #fff;
+            padding: 1rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 2px 8px rgba(44,83,164,0.08);
+            border-radius: 0 0 1.2rem 1.2rem;
+        }
+        .topbar .btn {
+            border-radius: 2rem;
+            font-weight: 600;
+            box-shadow: 0 2px 8px rgba(44,83,164,0.08);
+        }
+        .main-content {
+            padding: 2.5rem 2rem 2rem 2rem;
+        }
+        .card-custom {
+            background: #fff;
+            border-radius: 1.2rem;
+            box-shadow: 0 6px 32px rgba(44, 83, 164, 0.10);
+            padding: 2.5rem 2rem;
+            margin-bottom: 2rem;
+        }
+        .section-title {
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: #2a3a8c;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #e3e8f0;
+            padding-bottom: 0.5rem;
+        }
+        .btn-predict, .btn-secondary, .btn-detail {
+            border-radius: 2rem;
+            font-weight: 600;
+            box-shadow: 0 2px 8px rgba(44,83,164,0.08);
+            transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+        }
+        .btn-predict {
+            background: #232a5c;
+            color: #fff;
+        }
+        .btn-predict:hover {
+            background: #2a3a8c;
+            color: #fff;
+        }
+        .btn-detail {
+            background: #fff;
+            color: #232a5c;
+            border: 2px solid #232a5c;
+        }
+        .btn-detail:hover {
+            background: #232a5c;
+            color: #fff;
+        }
+        .recommend-box {
+            background: #f1f4fa;
+            border-radius: 0.7rem;
+            padding: 1rem;
+            color: #232a5c;
+        }
+        .table-custom {
+            background: #fff;
+            color: #232a5c;
+            border-radius: 0.7rem;
+            box-shadow: 0 2px 8px rgba(44,83,164,0.08);
+        }
+        .table-custom th, .table-custom td {
+            border: 1px solid #dee2e6;
+            vertical-align: middle !important;
+        }
+        .position-sticky {
+            position: sticky;
+            top: 0;
+        }
+        @media (max-width: 991px) {
+            .sidebar { min-height: auto; }
+            .main-content { padding: 1rem; }
+            .card-custom { padding: 1.2rem 0.7rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <!-- Sidebar -->
+        <nav class="col-md-2 d-none d-md-block sidebar">
+            <div class="position-sticky">
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a class="nav-link {% if active=='home' %}active{% endif %}" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link {% if active=='analysis' %}active{% endif %}" href="/maintenance/analysis">Analysis</a></li>
+                    <li class="nav-item"><a class="nav-link {% if active=='report' %}active{% endif %}" href="/batch_predict">Report</a></li>
+                    <li class="nav-item"><a class="nav-link {% if active=='intervention' %}active{% endif %}" href="/maintenance/intervention">Intervention</a></li>
+                    <li class="nav-item"><a class="nav-link {% if active=='data' %}active{% endif %}" href="/maintenance/data">Data Management</a></li>
+                    <li class="nav-item"><a class="nav-link {% if active=='system' %}active{% endif %}" href="/maintenance/system">System Maintenance</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main class="col-md-10 ms-sm-auto px-md-4">
+            <!-- Topbar -->
+            <div class="topbar mb-4">
+                <div>
+                    <span class="fw-bold">Risk Prediction</span>
+                </div>
+                <div>
+                    <span class="me-3">Risk Prediction</span>
+                    <span>Interpretation and ...</span>
+                </div>
+            </div>
+            <!-- Main Content -->
+            <div class="main-content">
+                <div class="card card-custom">
+                    <div class="section-title">Input Student Data</div>
+                    <form action="/predict" method="post" class="mb-4">
+                        <div class="row g-3">
+                            <div class="col-md-4">
+                                <label for="StudentID" class="form-label">Student ID</label>
+                                <input name="StudentID" type="text" class="form-control" value="{{ request.form.get('StudentID', '') }}">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="Name" class="form-label">Name</label>
+                                <input name="Name" type="text" class="form-control" required value="{{ request.form.get('Name', '') }}">
+                            </div>
+                        </div>
+                        <div class="row g-3 mt-1">
+                            {% for field in [
+                                ('Age', 'number'),
+                                ('GWA', 'number'),
+                                ('Attendance_Rate', 'number'),
+                                ('Library_Usage_Hours', 'number'),
+                                ('Counseling_Sessions', 'number')
+                            ] %}
+                                <div class="col-md-4">
+                                    <label for="{{ field[0] }}" class="form-label">{{ field[0].replace('_', ' ') }}</label>
+                                    <input name="{{ field[0] }}" type="{{ field[1] }}" step="any" class="form-control" required value="{{ request.form.get(field[0], '') }}">
+                                </div>
+                            {% endfor %}
+                        </div>
+                        <div class="row g-3 mt-1">
+                            {% for field in ['Gender', 'Course', 'Year_Level', 'Scholarship_Status'] %}
+                                <div class="col-md-3">
+                                    <label for="{{ field }}" class="form-label">{{ field.replace('_', ' ') }}</label>
+                                    <select name="{{ field }}" class="form-select">
+                                        {% for val in options[field] %}
+                                            <option value="{{ val }}" {% if request.form.get(field) == val %}selected{% endif %}>{{ val }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+                            {% endfor %}
+                        </div>
+                        <div class="row g-3 mt-1">
+                            <div class="col-md-12">
+                                <label for="School_Environment_Feedback" class="form-label">School Environment Feedback</label>
+                                <textarea name="School_Environment_Feedback" class="form-control" rows="2" required>{{ request.form.get('School_Environment_Feedback', '') }}</textarea>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-md-6">
+                                <button type="submit" class="btn btn-predict w-100">Predict Risk</button>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="/batch_predict" class="btn btn-secondary w-100">Batch Predict via CSV</a>
+                            </div>
+                        </div>
+                    </form>
+                    {% if prediction %}
+                    <div class="section-title mt-4">Risk Score Prediction</div>
+                    <div class="mb-3">
+                        <span class="result-label">Risk Score:</span> {{ risk_score if risk_score is defined else 'N/A' }}
+                    </div>
+                    <div class="mb-3">
+                        <span class="result-label">Risk Level:</span> {{ risk_level if risk_level is defined else 'N/A' }}
+                    </div>
+                    <div class="mb-3">
+                        <span class="result-label">Recommendations:</span>
+                        <div class="recommend-box mt-1">{{ recommendations if recommendations is defined else 'N/A' }}</div>
+                    </div>
+                    <div class="mt-4">
+                        <button class="btn btn-detail">View Detailed Analysis</button>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

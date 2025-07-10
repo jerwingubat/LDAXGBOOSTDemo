@@ -1,0 +1,51 @@
+Student ID,Age,Gender,Course,Year Level,GWA,Attendance Rate,Library Usage Hours,Counseling Sessions,Scholarship Status,Risk Class,Behavioral Data
+S0001,24,Male,BSCrim,Junior,2.07,85.56,10.9,1,No,,"There is a lack of sufficient resources, especially in the library."
+S0002,21,Male,BSCS,Junior,3.72,90.48,10.2,8,No,,The campus facilities are adequate but could use improvements.
+S0003,30,Male,BSAcc,Sophomore,1.82,67.43,12.7,7,No,,"The academic environment is positive, and I have good peer support."
+S0004,28,Female,BSAcc,Sophomore,2.94,54.81,5,12,Yes,,"I feel disconnected from campus activities, making it hard to stay engaged."
+S0005,25,Female,BSME,Senior,1,97.03,11.8,11,Yes,,The campus facilities are adequate but could use improvements.
+S0006,30,Male,BSAcc,Freshman,2.06,69.88,19.6,9,No,,"There is a lack of sufficient resources, especially in the library."
+S0007,22,Female,BSME,Junior,1.91,75.89,9.7,6,No,,Campus security needs to be improved to feel safer.
+S0008,24,Female,BSCS,Junior,1.49,91.89,18.1,8,Yes,,The campus facilities are adequate but could use improvements.
+S0009,27,Female,BSCrim,Senior,2.6,83.78,8.7,3,No,,The campus facilities are adequate but could use improvements.
+S0010,20,Female,BSCrim,Junior,2.45,86.76,7,12,No,,"There is a lot of academic pressure, but the counselors are supportive."
+S0011,24,Male,BSCrim,Freshman,3.08,60.45,12.9,3,No,,I feel very supported by the faculty and staff.
+S0012,28,Female,BSAcc,Senior,1.81,77.07,13.4,0,Yes,,"There is a lot of academic pressure, but the counselors are supportive."
+S0013,28,Male,BSCS,Freshman,1.73,84.79,17.3,7,Yes,,"The campus is generally welcoming, though some areas need better maintenance."
+S0014,25,Female,BSAcc,Senior,1.5,61.43,4.6,15,Yes,,"I find the campus environment welcoming, but I wish for more extracurricular activities."
+S0015,22,Female,BSAcc,Senior,1.66,58.75,10,13,No,,"I find the campus environment welcoming, but I wish for more extracurricular activities."
+S0016,21,Female,BSCS,Sophomore,2.67,99.11,11.4,15,No,,I feel very supported by the faculty and staff.
+S0017,25,Male,BSCS,Freshman,2.21,75.83,15.4,13,No,,I am struggling with some personal issues affecting my performance.
+S0018,25,Female,BSCS,Junior,1.19,63.04,0.9,11,Yes,,I am struggling with some personal issues affecting my performance.
+S0019,20,Male,BSCS,Junior,1.76,99.81,19.9,2,No,,"There is a lack of sufficient resources, especially in the library."
+S0020,23,Female,BSCrim,Freshman,1.74,98.27,9.4,6,No,,I feel very supported by the faculty and staff.
+S0021,22,Male,BSECE,Junior,3.09,77.91,5.6,14,No,,The campus facilities are adequate but could use improvements.
+S0022,19,Female,BSECE,Junior,3.14,94.13,17.7,11,No,,I am struggling with some personal issues affecting my performance.
+S0023,25,Male,BSCS,Freshman,1.44,59.44,15,1,Yes,,"The academic environment is positive, and I have good peer support."
+S0024,29,Male,BSECE,Senior,3.99,63.94,19.1,1,Yes,,"I feel disconnected from campus activities, making it hard to stay engaged."
+S0025,23,Female,BSECE,Freshman,1.8,85.02,6.6,15,No,,The campus facilities are adequate but could use improvements.
+S0026,19,Male,BSCS,Senior,3.93,92.33,11.1,6,Yes,,"The campus is generally welcoming, though some areas need better maintenance."
+S0027,29,Female,BSECE,Junior,2.23,92.82,11.4,14,Yes,,"The academic environment is positive, and I have good peer support."
+S0028,22,Female,BSAcc,Junior,1.1,70.23,19.6,5,No,,"The academic environment is positive, and I have good peer support."
+S0029,18,Female,BSME,Junior,2.04,94.39,1.5,2,No,,I feel very supported by the faculty and staff.
+S0030,29,Female,BSME,Sophomore,2.9,92.55,6.1,8,Yes,,"There is a lack of sufficient resources, especially in the library."
+S0031,27,Female,BSCS,Senior,3.04,96.78,3.8,9,No,,"The campus is generally welcoming, though some areas need better maintenance."
+S0032,23,Female,BSCrim,Sophomore,2.59,89.27,5.4,14,Yes,,I am struggling with some personal issues affecting my performance.
+S0033,30,Female,BSCS,Sophomore,2.34,83.45,9.7,13,No,,I feel very supported by the faculty and staff.
+S0034,29,Female,BSCrim,Freshman,2.66,79.03,7.5,12,Yes,,I am struggling with some personal issues affecting my performance.
+S0035,26,Female,BSME,Sophomore,2.78,68.61,7.9,5,No,,I feel very supported by the faculty and staff.
+S0036,18,Female,BSCS,Freshman,1.24,97.01,16.9,9,Yes,,I feel very supported by the faculty and staff.
+S0037,28,Female,BSAcc,Freshman,2.11,98.68,18.6,9,Yes,,I feel very supported by the faculty and staff.
+S0038,28,Male,BSECE,Sophomore,1.73,64.2,1.4,5,Yes,,"There is a lack of sufficient resources, especially in the library."
+S0039,27,Male,BSCrim,Senior,3.41,65.27,4.2,0,No,,I feel very supported by the faculty and staff.
+S0040,29,Female,BSECE,Senior,2.41,74.28,13.4,3,Yes,,Campus security needs to be improved to feel safer.
+S0041,29,Female,BSECE,Senior,3.95,72.42,7.2,9,Yes,,"I feel disconnected from campus activities, making it hard to stay engaged."
+S0042,20,Female,BSCS,Senior,2.2,99.72,5.1,5,No,,I am struggling with some personal issues affecting my performance.
+S0043,29,Female,BSECE,Senior,3.45,58.8,5.9,14,No,,The campus facilities are adequate but could use improvements.
+S0044,24,Female,BSAcc,Sophomore,3.4,50.9,6.5,5,Yes,,"There is a lot of academic pressure, but the counselors are supportive."
+S0045,21,Female,BSECE,Sophomore,1.45,74.69,17,10,Yes,,"The campus is generally welcoming, though some areas need better maintenance."
+S0046,26,Female,BSCS,Junior,2.52,58.94,2.7,11,No,,"I find the campus environment welcoming, but I wish for more extracurricular activities."
+S0047,20,Female,BSAcc,Senior,3.09,68.32,14.2,4,No,,"There is a lack of sufficient resources, especially in the library."
+S0048,22,Male,BSME,Sophomore,3.58,87.21,11.1,0,No,,The campus facilities are adequate but could use improvements.
+S0049,20,Female,BSECE,Junior,1.98,86.05,5.9,7,No,,"The academic environment is positive, and I have good peer support."
+S0050,24,Male,BSCS,Senior,1.66,65.4,8.4,4,No,,Campus security needs to be improved to feel safer.

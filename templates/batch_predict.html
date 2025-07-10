@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Batch Academic Standing Prediction</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background: #f6f8fa;
+            color: #232a5c;
+        }
+        .sidebar {
+            background: #232a5c;
+            color: #fff;
+            min-height: 100vh;
+            padding-top: 2rem;
+            box-shadow: 2px 0 12px rgba(44,83,164,0.07);
+            position: sticky;
+            top: 0;
+        }
+        .sidebar .nav-link {
+            color: #fff;
+            font-weight: 500;
+            margin-bottom: 0.7rem;
+            border-radius: 0.7rem;
+            padding: 0.7rem 1.2rem;
+            transition: background 0.2s, color 0.2s;
+        }
+        .sidebar .nav-link.active, .sidebar .nav-link:focus {
+            background: #fff;
+            color: #232a5c;
+            font-weight: bold;
+            box-shadow: 0 2px 8px rgba(44,83,164,0.08);
+        }
+        .sidebar .nav-link:not(.active):hover {
+            background: #3c4a8a;
+            color: #fff;
+        }
+        .sidebar .nav-link.disabled {
+            color: #b0b0b0;
+            pointer-events: none;
+            background: none;
+        }
+        .topbar {
+            background: #232a5c;
+            color: #fff;
+            padding: 1rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 2px 8px rgba(44,83,164,0.08);
+            border-radius: 0 0 1.2rem 1.2rem;
+        }
+        .topbar .btn {
+            border-radius: 2rem;
+            font-weight: 600;
+            box-shadow: 0 2px 8px rgba(44,83,164,0.08);
+        }
+        .main-content {
+            padding: 2.5rem 2rem 2rem 2rem;
+        }
+        .card-custom {
+            background: #fff;
+            border-radius: 1.2rem;
+            box-shadow: 0 6px 32px rgba(44, 83, 164, 0.10);
+            padding: 2.5rem 2rem;
+            margin-bottom: 2rem;
+        }
+        .section-title {
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: #2a3a8c;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #e3e8f0;
+            padding-bottom: 0.5rem;
+        }
+        .btn-primary, .btn-secondary {
+            border-radius: 2rem;
+            font-weight: 600;
+            box-shadow: 0 2px 8px rgba(44,83,164,0.08);
+            transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+        }
+        .btn-primary {
+            background: #232a5c;
+            color: #fff;
+        }
+        .btn-primary:hover {
+            background: #2a3a8c;
+            color: #fff;
+        }
+        .btn-secondary {
+            background: #fff;
+            color: #232a5c;
+            border: 2px solid #232a5c;
+        }
+        .btn-secondary:hover {
+            background: #232a5c;
+            color: #fff;
+        }
+        .table-custom {
+            background: #fff;
+            color: #232a5c;
+            border-radius: 0.9rem;
+            box-shadow: 0 4px 24px rgba(44,83,164,0.10);
+            overflow: hidden;
+        }
+        .table-custom th {
+            background: #e8edfa;
+            color: #232a5c;
+            font-weight: 700;
+            border: none;
+            padding: 1rem 0.75rem;
+        }
+        .table-custom td {
+            border: none;
+            padding: 0.85rem 0.75rem;
+        }
+        .table-custom tbody tr:nth-of-type(odd) {
+            background: #f6f8fa;
+        }
+        .table-custom tbody tr:hover {
+            background: #dbeafe;
+            transition: background 0.2s;
+        }
+        .table-responsive {
+            overflow-x: auto;
+            box-shadow: 0 2px 8px rgba(44,83,164,0.08);
+        }
+        .search-box { margin-bottom: 1rem; }
+        .pagination { justify-content: center; }
+        @media (max-width: 991px) {
+            .sidebar { min-height: auto; }
+            .main-content { padding: 1rem; }
+            .card-custom { padding: 1.2rem 0.7rem; }
+        }
+        .position-sticky {
+            position: sticky;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <!-- Sidebar -->
+        <nav class="col-md-2 d-none d-md-block sidebar">
+            <div class="position-sticky">
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a class="nav-link {% if active=='home' %}active{% endif %}" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link {% if active=='analysis' %}active{% endif %}" href="/maintenance/analysis">Analysis</a></li>
+                    <li class="nav-item"><a class="nav-link {% if active=='report' %}active{% endif %}" href="/batch_predict">Report</a></li>
+                    <li class="nav-item"><a class="nav-link {% if active=='intervention' %}active{% endif %}" href="/maintenance/intervention">Intervention</a></li>
+                    <li class="nav-item"><a class="nav-link {% if active=='data' %}active{% endif %}" href="/maintenance/data">Data Management</a></li>
+                    <li class="nav-item"><a class="nav-link {% if active=='system' %}active{% endif %}" href="/maintenance/system">System Maintenance</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main class="col-md-10 ms-sm-auto px-md-4">
+            <!-- Topbar -->
+            <div class="topbar mb-4">
+                <div>
+                    <span class="fw-bold">Interpretation & Reporting</span>
+                </div>
+                <div>
+                    <span class="me-3">Risk Prediction &gt;</span>
+                    <span>Interpretation and Reporting</span>
+                </div>
+            </div>
+            <!-- Main Content -->
+            <div class="main-content">
+                <div class="card card-custom">
+                    <div class="section-title">Batch Academic Standing Prediction</div>
+                    <form action="/batch_predict" method="post" enctype="multipart/form-data" class="mb-4">
+                        <div class="mb-3">
+                            <label for="file" class="form-label">Upload CSV File</label>
+                            <input class="form-control" type="file" name="file" id="file" accept=".csv" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Upload & Predict</button>
+                        <a href="/" class="btn btn-secondary ms-2">Back to Single Prediction</a>
+                    </form>
+                    {% with messages = get_flashed_messages() %}
+                      {% if messages %}
+                        <div class="alert alert-warning">
+                          {% for message in messages %}{{ message }}<br>{% endfor %}
+                        </div>
+                      {% endif %}
+                    {% endwith %}
+                    {% if table %}
+                    <div class="search-box">
+                        <input type="text" id="searchInput" class="form-control" placeholder="Search table...">
+                    </div>
+                    <div class="table-responsive mt-4">
+                        <table class="table table-custom table-bordered table-hover align-middle" id="predictionTable">
+                            <thead>
+                                <tr>
+                                    {% for col in columns %}
+                                    <th>{{ col }}</th>
+                                    {% endfor %}
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for row in table %}
+                                <tr>
+                                    {% for col in columns %}
+                                    <td>{{ row[col] }}</td>
+                                    {% endfor %}
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                    <nav class="mt-3">
+                        <ul class="pagination justify-content-center" id="pagination"></ul>
+                    </nav>
+                    <script>
+const rowsPerPage = 10;
+let currentPage = 1;
+const table = document.getElementById('predictionTable');
+const tbody = table.querySelector('tbody');
+const searchInput = document.getElementById('searchInput');
+const pagination = document.getElementById('pagination');
+function getRows() {
+    return Array.from(tbody.querySelectorAll('tr'));
+}
+function renderTable() {
+    const allRows = getRows();
+    let filter = searchInput.value.toLowerCase();
+    let filteredRows = allRows.filter(row => row.textContent.toLowerCase().indexOf(filter) > -1);
+    let totalRows = filteredRows.length;
+    let totalPages = Math.ceil(totalRows / rowsPerPage) || 1;
+    if (currentPage > totalPages) currentPage = totalPages;
+    if (currentPage < 1) currentPage = 1;
+    allRows.forEach(row => row.style.display = 'none');
+    filteredRows.forEach((row, i) => {
+        if (i >= (currentPage - 1) * rowsPerPage && i < currentPage * rowsPerPage) {
+            row.style.display = '';
+        }
+    });
+    renderMinimalPagination(totalPages);
+}
+function renderMinimalPagination(totalPages) {
+    pagination.innerHTML = '';
+    if (totalPages <= 1) return;
+    let prev = document.createElement('li');
+    prev.className = 'page-item' + (currentPage === 1 ? ' disabled' : '');
+    prev.innerHTML = `<a class="page-link" href="#">Previous</a>`;
+    prev.onclick = function(e) { e.preventDefault(); if (currentPage > 1) { currentPage--; renderTable(); } };
+    pagination.appendChild(prev);
+    let pageLi = document.createElement('li');
+    pageLi.className = 'page-item active';
+    pageLi.innerHTML = `<span class="page-link" style="border:none; background:none; color:#232a5c; font-weight:bold;">${currentPage}</span>`;
+    pagination.appendChild(pageLi);
+    let next = document.createElement('li');
+    next.className = 'page-item' + (currentPage === totalPages ? ' disabled' : '');
+    next.innerHTML = `<a class="page-link" href="#">Next</a>`;
+    next.onclick = function(e) { e.preventDefault(); if (currentPage < totalPages) { currentPage++; renderTable(); } };
+    pagination.appendChild(next);
+}
+searchInput.addEventListener('keyup', function() {
+    currentPage = 1;
+    renderTable();
+});
+renderTable();
+                    </script>
+                    {% endif %}
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

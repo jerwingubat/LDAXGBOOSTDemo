@@ -1,0 +1,1001 @@
+Student_ID,Age,Gender,Course,Year_Level,GWA,Attendance_Rate,Library_Usage_Hours,Scholarship_Status,Counseling_Sessions,Academic_Standing,School_Environment_Feedback
+S0001,23,Female,BSECE,3rd Year,3.83,58.61,3.31,No,6,Probation,Security guards are friendly and respectful. I feel safe walking around campus.
+S0002,21,Male,BSCS,4th Year,1.02,58.63,16.44,No,4,Good,"I feel safe walking around the campus even in the evening. Security guards are visible, and the pathways are well-lit."
+S0003,19,Female,BSIT,2nd Year,2.48,89.06,13.8,Yes,10,Probation,"I feel safe walking around the campus even in the evening. Security guards are visible, and the pathways are well-lit."
+S0004,25,Male,BSECE,1st Year,2.25,83.49,16.99,Yes,2,Probation,The campus grounds are clean and well-maintained.
+S0005,24,Male,BSME,3rd Year,2.16,57.79,0.85,No,0,Dropout_Risk,"The canteen is often overcrowded, and the food choices are limited. It would be nice to have healthier and more affordable options."
+S0006,20,Male,BSCE,4th Year,4.99,92.01,0.87,No,0,Probation,The academic environment is competitive but supportive.
+S0007,24,Female,BSECE,4th Year,1,84.59,9.44,Yes,3,Good,"Our teachers are approachable and helpful, which makes the learning experience enjoyable. They also create an inclusive environment where everyone is encouraged to speak up."
+S0008,21,Female,BSCS,3rd Year,3.07,72.8,5.64,Yes,4,Dropout_Risk,The academic environment is competitive but supportive.
+S0009,23,Male,BSCE,1st Year,4.33,78.51,1.51,Yes,4,Good,"The library is a peaceful place to study, but there are not enough updated references for our program. It would help if digital resources were expanded."
+S0010,21,Male,BSCE,1st Year,4.06,60.8,16.97,Yes,5,Good,Restrooms are usually clean and have the necessary supplies.
+S0011,21,Male,BSME,4th Year,3,67.88,11.88,No,2,Probation,"There are enough open spaces where students can relax or review between classes. However, more shaded areas would make the outdoor spots more comfortable."
+S0012,21,Female,BSECE,3rd Year,1.66,92.64,8.96,Yes,1,Dropout_Risk,The guidance office is easy to approach and very helpful.
+S0013,24,Female,BSCE,2nd Year,4.48,79.93,18.73,Yes,3,Good,"Group activities are encouraged, and we often collaborate in a supportive environment. The culture promotes teamwork and respect among students."
+S0014,19,Female,BSME,1st Year,4.13,92.32,11.02,No,8,Good,Some chairs in the lecture halls are broken and uncomfortable to use. It becomes distracting especially during long classes.
+S0015,24,Male,BSIT,2nd Year,3.89,86.8,12.3,Yes,9,Good,"Some restrooms are clean and regularly maintained, but others often run out of supplies. It affects our comfort and hygiene throughout the day."
+S0016,23,Male,BSCS,3rd Year,1.39,94.29,1.29,No,1,Good,"Group activities are encouraged, and we often collaborate in a supportive environment. The culture promotes teamwork and respect among students."
+S0017,20,Male,BSCS,4th Year,3.5,57.82,0.88,No,10,Good,"The school offers many student organizations, which makes it easy to find a community. It helps me feel more connected and involved."
+S0018,22,Male,BSECE,3rd Year,2.99,74.56,15.24,No,4,Probation,Some chairs in the lecture halls are broken and uncomfortable to use. It becomes distracting especially during long classes.
+S0019,23,Male,BSIT,4th Year,1,90.11,0.47,Yes,4,Good,"Internet access in campus is unreliable, which makes online research and submitting requirements difficult. Stable Wi-Fi should be a priority."
+S0020,21,Female,BSME,4th Year,2.57,77.63,0.17,Yes,10,Probation,The classrooms are too hot in the afternoon because the electric fans aren?t enough. Installing more ventilation would improve our comfort.
+S0021,19,Female,BSECE,3rd Year,4.33,97.27,14.4,No,1,Probation,The classrooms are too hot in the afternoon because the electric fans aren?t enough. Installing more ventilation would improve our comfort.
+S0022,25,Male,BSIT,3rd Year,4.83,86.07,11.54,Yes,0,Probation,Some chairs in the lecture halls are broken and uncomfortable to use. It becomes distracting especially during long classes.
+S0023,18,Female,BSME,1st Year,3.18,78.68,14.98,No,10,Dropout_Risk,The restrooms are usually dirty and lack tissue or soap. It?s uncomfortable especially during long class hours.
+S0024,24,Male,BSECE,2nd Year,2.89,60.77,6.01,Yes,4,Good,"The school grounds are well-kept, and it's refreshing to see green spaces. I enjoy spending my breaks outdoors because of this."
+S0025,20,Female,BSIT,3rd Year,2.99,84.88,1.89,No,2,Dropout_Risk,Restrooms are usually clean and have the necessary supplies.
+S0026,18,Male,BSME,2nd Year,3.8,98.7,11.75,No,10,Probation,"The computer labs are often fully booked, so we have a hard time practicing during free hours. More units or access hours would help."
+S0027,22,Male,BSCS,1st Year,1.65,73.41,19.33,Yes,10,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0028,25,Male,BSIT,2nd Year,1.97,78.11,19.44,No,4,Dropout_Risk,Our computer labs are equipped with the latest software we need for our program.
+S0029,23,Female,BSCS,1st Year,4.82,74.09,19.62,No,6,Probation,The guidance office is easy to approach and very helpful.
+S0030,25,Male,BSCS,1st Year,1.1,76.92,12.23,No,4,Good,The science laboratories are outdated and lack essential equipment. This limits the learning experience during experiments.
+S0031,24,Male,BSIT,1st Year,3.47,74.84,12.39,Yes,1,Good,The restrooms are usually dirty and lack tissue or soap. It?s uncomfortable especially during long class hours.
+S0032,18,Male,BSCE,1st Year,4.58,83.47,17.1,No,1,Good,"The school gym is well-maintained and encourages students to stay active. However, it's often reserved for varsity, leaving others with limited access."
+S0033,22,Female,BSCS,3rd Year,1.43,55.41,17.08,No,0,Probation,Security guards are friendly and respectful. I feel safe walking around campus.
+S0034,20,Male,BSME,1st Year,4.32,75.19,6.25,No,2,Probation,Wi-Fi is strong in the library but weak in the classrooms. This affects our ability to access online materials during lectures.
+S0035,19,Male,BSME,3rd Year,1.16,98.1,11.23,Yes,5,Good,"The library is quiet and comfortable, with plenty of space to study."
+S0036,21,Male,BSME,3rd Year,3.38,74.36,8.09,No,9,Dropout_Risk,There are too few charging stations around campus. I often run out of battery and have no place to recharge.
+S0037,22,Female,BSME,4th Year,3.49,89.38,1.81,Yes,4,Probation,"The library is quiet and comfortable, with plenty of space to study."
+S0038,18,Male,BSME,2nd Year,4.75,83.84,3.71,No,1,Dropout_Risk,The drinking fountains are not regularly cleaned. It makes us hesitant to use them
+S0039,18,Female,BSECE,3rd Year,2.36,57.32,6.78,No,0,Dropout_Risk,"There?s always a guard at the entrance, which makes me feel safe. ID checking is strictly implemented."
+S0040,21,Female,BSIT,3rd Year,3.02,98.22,18.57,No,6,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0041,18,Female,BSCE,3rd Year,2.7,54.06,8.95,No,3,Probation,Fire exits and evacuation plans are clearly posted in every building. We also had a recent fire drill which helped a lot.
+S0042,24,Female,BSCS,3rd Year,3.1,87.96,15.05,Yes,3,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0043,23,Male,BSME,1st Year,1.6,88.87,13.41,No,0,Probation,The restrooms are usually dirty and lack tissue or soap. It?s uncomfortable especially during long class hours.
+S0044,25,Female,BSCS,3rd Year,4.56,65.08,3.51,Yes,4,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0045,23,Female,BSCS,2nd Year,3.47,96.13,4.9,Yes,2,Probation,"There are too many stray dogs on campus, and it feels unsafe when walking between buildings. I hope the administration addresses this."
+S0046,23,Female,BSIT,4th Year,4.87,86.92,16.38,Yes,3,Good,Our computer labs are equipped with the latest software we need for our program.
+S0047,21,Female,BSCS,2nd Year,1.27,90.67,18.73,Yes,3,Good,I like that there are designated smoking areas. It keeps the rest of the campus clean and healthier.
+S0048,18,Male,BSECE,2nd Year,4.71,61.45,5.92,Yes,6,Dropout_Risk,The guidance office is easy to approach and very helpful.
+S0049,25,Male,BSECE,2nd Year,4.17,91.92,8.76,No,9,Good,We need more trash bins around the school. Sometimes students just leave trash on benches or hallways.
+S0050,19,Female,BSME,1st Year,1.4,88.11,19.33,No,9,Good,The campus grounds are clean and well-maintained.
+S0051,23,Female,BSIT,4th Year,2.79,84.92,4.53,Yes,3,Probation,Janitors do a good job maintaining cleanliness in common areas. The hallways always smell clean in the mornings.
+S0052,18,Male,BSIT,1st Year,4.56,74.87,12.35,No,1,Probation,"The classrooms are bright, clean, and conducive to learning."
+S0053,22,Male,BSCS,1st Year,2.52,51.3,7.41,No,10,Good,Some parts of the campus are too dark at night. Adding more lights would make it safer for evening classes.
+S0054,19,Male,BSCE,3rd Year,1.5,54.01,17.8,No,3,Dropout_Risk,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0055,21,Male,BSIT,2nd Year,4.17,76.21,7.32,Yes,5,Dropout_Risk,Crosswalks and signage near the gate are very helpful. They make it easier and safer to enter the campus.
+S0056,25,Male,BSME,4th Year,2.56,89.11,3.15,No,1,Good,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0057,24,Female,BSME,2nd Year,4.13,66.24,12.11,Yes,3,Good,We need more visible first aid kits or a dedicated emergency room. Minor injuries often go untreated.
+S0058,18,Male,BSCS,2nd Year,3.64,68.1,11.18,No,2,Good,The teachers are very knowledgeable and always willing to assist. They encourage us to ask questions and participate.
+S0059,21,Male,BSCS,1st Year,2.12,91.62,7.68,Yes,6,Probation,The guidance office is easy to approach and very helpful.
+S0060,24,Male,BSCE,2nd Year,3.89,61.01,11.85,Yes,10,Dropout_Risk,Some instructors arrive late or cancel without notice. It disrupts our schedule and momentum.
+S0061,24,Female,BSCE,3rd Year,1.13,94.11,19.92,Yes,9,Good,"The library is quiet and comfortable, with plenty of space to study."
+S0062,25,Female,BSIT,1st Year,1.72,57.88,2.9,No,9,Dropout_Risk,We?re always updated with class announcements and grades through our online portal. It helps me stay organized.
+S0063,18,Male,BSCS,2nd Year,3.84,91.26,19.78,No,6,Dropout_Risk,The academic environment is competitive but supportive.
+S0064,23,Female,BSCE,4th Year,1.54,78.35,5.19,No,4,Good,We don?t have enough references in the library for our major. Most of the books are outdated.
+S0065,18,Male,BSCE,2nd Year,1.58,73.95,7.12,Yes,5,Probation,"The library is quiet and comfortable, with plenty of space to study."
+S0066,23,Male,BSECE,4th Year,2.99,70.35,16.88,No,6,Probation,"I like that we are encouraged to do practical work, not just theory. It makes the lessons more relevant and engaging."
+S0067,22,Male,BSCS,2nd Year,1.72,74.35,5.29,No,3,Dropout_Risk,Our school celebrates student diversity through events and awareness weeks.
+S0068,20,Male,BSCE,4th Year,1,56.17,13.97,No,5,Dropout_Risk,"Sometimes, classes are overcrowded and it?s hard to focus. Not all students get a chance to actively participate."
+S0069,22,Female,BSME,3rd Year,1.09,67.62,1.83,No,4,Dropout_Risk,Our school celebrates student diversity through events and awareness weeks.
+S0070,21,Female,BSCS,3rd Year,4.89,71.46,7.72,No,1,Good,The academic environment is competitive but supportive. Everyone helps each other out during deadlines.
+S0071,18,Male,BSME,3rd Year,3.34,87.99,0.78,Yes,5,Probation,"The classrooms are bright, clean, and conducive to learning."
+S0072,23,Female,BSME,4th Year,2.29,65.13,16.97,No,9,Dropout_Risk,Professors are open to feedback and adjust their methods based on student needs. That kind of flexibility really helps.
+S0073,18,Female,BSCE,4th Year,2.13,80.94,6.76,No,1,Probation,"The classrooms are bright, clean, and conducive to learning."
+S0074,24,Male,BSCE,3rd Year,2.2,62.49,10.18,No,10,Good,Group projects are common but hard to manage because not everyone contributes. I wish there were better systems to evaluate individual work.
+S0075,22,Female,BSCE,3rd Year,2.71,93.78,12.45,No,1,Dropout_Risk,The academic environment is competitive but supportive.
+S0076,24,Male,BSECE,4th Year,3.63,76.57,13.07,Yes,6,Good,There?s a lot of academic pressure but not enough counseling support. I wish we had more mental health check-ins.
+S0077,20,Male,BSIT,1st Year,1.57,87.81,5.74,Yes,7,Dropout_Risk,There are many clubs and organizations to choose from. Joining one made me feel more connected to my classmates.
+S0078,23,Female,BSCE,1st Year,1.07,73.85,16.33,Yes,10,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0079,25,Male,BSME,3rd Year,2.35,54.5,12.86,No,7,Probation,Student activities are inclusive and fun. I look forward to school events because they bring the campus alive.
+S0080,21,Female,BSME,1st Year,3.62,66.55,19.05,Yes,0,Probation,Security guards are friendly and respectful. I feel safe walking around campus.
+S0081,25,Female,BSIT,1st Year,1.42,50.15,17.86,No,3,Probation,"Sometimes there are too many events in one week, and it interferes with our academics. A better schedule would help."
+S0082,20,Female,BSECE,1st Year,1.23,69.45,0.11,No,10,Dropout_Risk,"The library is quiet and comfortable, with plenty of space to study."
+S0083,24,Male,BSIT,1st Year,3.82,64.19,18.25,Yes,4,Dropout_Risk,I like how diverse our school is. Everyone is accepted regardless of background or belief.
+S0084,20,Male,BSIT,2nd Year,3.96,52.69,17.79,No,10,Good,Our computer labs are equipped with the latest software we need for our program.
+S0085,25,Male,BSECE,1st Year,2.46,52.82,15.72,Yes,3,Dropout_Risk,"Some students are loud in common areas, especially during breaks. It?s hard to find a quiet space to study."
+S0086,24,Male,BSIT,3rd Year,2.87,81,2.19,No,3,Good,Our computer labs are equipped with the latest software we need for our program.
+S0087,18,Female,BSIT,4th Year,1.07,98.87,12.9,Yes,1,Good,Peer tutoring programs really help students like me who struggle in math. I hope these programs continue.
+S0088,25,Female,BSIT,3rd Year,3.51,69.1,12.64,No,9,Good,Restrooms are usually clean and have the necessary supplies.
+S0089,23,Female,BSME,4th Year,4.01,62.5,9.89,No,1,Good,There?s a lot of favoritism in student organizations. It makes it hard for new members to be heard.
+S0090,21,Female,BSCE,2nd Year,4.49,64.16,9.7,Yes,7,Probation,Security guards are friendly and respectful. I feel safe walking around campus.
+S0091,20,Female,BSCE,1st Year,4.7,70.97,17.29,No,10,Probation,Orientation for freshmen was helpful. It made my transition to college smoother.
+S0092,20,Male,BSCS,4th Year,4.19,65.82,14.54,Yes,5,Dropout_Risk,Our computer labs are equipped with the latest software we need for our program.
+S0093,25,Female,BSECE,3rd Year,2.82,84.72,13.66,No,7,Dropout_Risk,The guidance office is approachable and responds quickly. They helped me adjust when I had problems last semester.
+S0094,23,Female,BSIT,2nd Year,1.53,99.56,14.86,Yes,0,Dropout_Risk,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0095,22,Male,BSCE,1st Year,2.91,94.45,5.91,No,1,Dropout_Risk,Student government listens to feedback and raises our concerns well. I feel like we have a voice in campus decisions.
+S0096,18,Male,BSECE,1st Year,3.15,60.77,12.6,No,4,Probation,There are gender-neutral policies in place and it makes LGBTQ+ students feel safe. The school is very inclusive.
+S0097,24,Female,BSIT,1st Year,2.34,63.56,15.34,Yes,2,Good,The guidance office is easy to approach and very helpful.
+S0098,25,Male,BSECE,3rd Year,1.27,54.71,4.85,Yes,10,Dropout_Risk,We need more counselors for mental health services. The waiting time for appointments is too long.
+S0099,20,Male,BSME,3rd Year,3.2,76.43,10.25,Yes,9,Probation,The guidance office is easy to approach and very helpful.
+S0100,25,Male,BSCS,2nd Year,2.25,81.7,7.55,Yes,6,Good,Teachers are sensitive to students with disabilities. They give reasonable accommodations without making students feel different.
+S0101,20,Male,BSCE,4th Year,2.09,70.29,3.34,No,9,Probation,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0102,18,Male,BSCS,4th Year,1.3,89.9,17.47,Yes,5,Probation,I feel like our concerns as working students are not fully understood. We need more flexible options.
+S0103,24,Female,BSCS,2nd Year,2.74,84.48,9.66,Yes,3,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0104,25,Female,BSME,4th Year,1.82,96.44,13.32,Yes,10,Good,There?s very little bullying in campus because of the zero-tolerance policy. It helps create a respectful environment.
+S0105,24,Female,BSECE,4th Year,1.99,84.83,8.36,Yes,8,Good,Our computer labs are equipped with the latest software we need for our program.
+S0106,19,Female,BSCS,3rd Year,1.2,92.74,0.99,Yes,0,Dropout_Risk,I wish the school had more programs for students with financial challenges. Scholarships are very limited.
+S0107,22,Male,BSCE,1st Year,2.64,57.95,13.06,No,2,Dropout_Risk,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0108,18,Female,BSME,1st Year,3.3,79.7,17.41,Yes,8,Good,There?s an open-door culture among most staff and faculty. It?s easy to approach them if I need help.
+S0109,24,Female,BSECE,2nd Year,1.44,99.4,18.92,No,1,Probation,The academic environment is competitive but supportive.
+S0110,20,Female,BSECE,1st Year,2.19,77.29,18.59,Yes,5,Probation,I?m grateful that the school observes inclusive holidays and respects diverse religious beliefs.
+S0111,21,Female,BSCS,2nd Year,3.73,90.37,16.49,No,10,Good,"The classrooms are bright, clean, and conducive to learning."
+S0112,23,Female,BSCS,1st Year,3.88,73.75,2.89,Yes,4,Good,Sometimes teachers assign too much work with overlapping deadlines. It affects our mental and physical health.
+S0113,24,Female,BSCS,4th Year,4.96,85.69,2.69,Yes,9,Good,The campus grounds are clean and well-maintained.
+S0114,25,Male,BSME,4th Year,3.58,76.61,7.66,Yes,1,Dropout_Risk,It?s nice to have quiet zones in the library. They really help when you need to concentrate or decompress.
+S0115,25,Female,BSIT,4th Year,3.54,60.22,18.23,No,6,Probation,"The classrooms are bright, clean, and conducive to learning. It makes attending class more enjoyable."
+S0116,25,Male,BSECE,2nd Year,4.65,61.98,16.6,No,7,Good,Our school celebrates student diversity through events and awareness weeks.
+S0117,21,Female,BSME,2nd Year,1.59,79.77,12.46,No,3,Good,Our computer labs are equipped with the latest software we need for our program. I always look forward to our lab sessions.
+S0118,18,Female,BSCS,4th Year,2.09,52.49,6.86,Yes,2,Dropout_Risk,The campus grounds are clean and well-maintained.
+S0119,18,Female,BSCS,3rd Year,4.35,75.2,18.07,No,10,Good,"The library is quiet and comfortable, with plenty of space to study. I appreciate the free Wi-Fi and computer terminals."
+S0120,18,Male,BSECE,1st Year,3.63,56.8,9.7,No,8,Good,The academic environment is competitive but supportive.
+S0121,19,Male,BSCE,1st Year,1.7,92.01,19.74,No,10,Good,The campus grounds are clean and well-maintained. The greenery makes it a refreshing place to walk around.
+S0122,22,Male,BSME,1st Year,1.01,51.95,1.68,Yes,9,Good,Our computer labs are equipped with the latest software we need for our program.
+S0123,18,Male,BSIT,1st Year,2.78,60.3,2.55,Yes,6,Probation,There are enough charging stations in the student lounge. It?s convenient when we need to power our devices.
+S0124,19,Female,BSME,3rd Year,3.65,85.99,5.5,Yes,6,Good,"The library is quiet and comfortable, with plenty of space to study."
+S0125,24,Female,BSIT,1st Year,3.93,59.69,13.15,Yes,0,Dropout_Risk,The science labs are well-stocked with tools and materials. They make our practicals more exciting and hands-on.
+S0126,23,Male,BSIT,2nd Year,4.78,51.88,11.04,Yes,4,Dropout_Risk,Restrooms are usually clean and have the necessary supplies.
+S0127,23,Female,BSCS,2nd Year,3.08,87.25,12.2,Yes,1,Good,"The canteen has improved a lot recently. The food is better, and the service is faster."
+S0128,20,Male,BSECE,3rd Year,1.41,67.49,9.48,Yes,6,Dropout_Risk,Security guards are friendly and respectful. I feel safe walking around campus.
+S0129,23,Female,BSME,4th Year,3.95,62.52,13.86,Yes,10,Dropout_Risk,There are clear signs and directions all over campus. It?s easy to find classrooms and offices.
+S0130,20,Male,BSECE,2nd Year,1.81,80.52,1.99,No,7,Probation,Our school celebrates student diversity through events and awareness weeks.
+S0131,24,Female,BSIT,4th Year,2.46,69.01,3.86,Yes,5,Dropout_Risk,Most classrooms now have projectors and sound systems. It really helps us see and hear lessons clearly.
+S0132,20,Female,BSME,2nd Year,4.9,57.86,6.01,No,1,Dropout_Risk,"The library is quiet and comfortable, with plenty of space to study."
+S0133,21,Female,BSECE,4th Year,2.8,60.14,14.69,No,8,Probation,"The air conditioning in classrooms is very helpful, especially during summer. It keeps us comfortable and focused."
+S0134,21,Male,BSECE,4th Year,4.16,72.82,11.06,Yes,0,Dropout_Risk,"I always see the janitorial staff cleaning, even during class hours. They?re doing a great job keeping the environment tidy."
+S0135,24,Male,BSIT,1st Year,1.1,83.66,19.6,No,7,Good,"The library is quiet and comfortable, with plenty of space to study."
+S0136,18,Male,BSCE,2nd Year,3.55,84.15,7.82,No,10,Good,Security guards are friendly and respectful. I feel safe walking around campus even at night.
+S0137,25,Male,BSECE,4th Year,1.26,92.12,6.01,Yes,0,Probation,The guidance office is easy to approach and very helpful.
+S0138,18,Female,BSIT,1st Year,2.76,88.56,9.14,No,9,Dropout_Risk,Restrooms are usually clean and have the necessary supplies. This makes staying on campus more comfortable.
+S0139,24,Female,BSME,1st Year,4.12,54.56,3.63,Yes,3,Dropout_Risk,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0140,24,Female,BSME,2nd Year,1.2,73.56,7.1,No,4,Probation,The COVID-19 safety protocols are well-implemented. There are alcohol dispensers and temperature scanners at every building.
+S0141,21,Female,BSIT,2nd Year,1.64,93.55,13.5,No,1,Good,"The library is quiet and comfortable, with plenty of space to study."
+S0142,23,Female,BSECE,4th Year,4.29,56.83,0.71,No,4,Good,There are visible emergency exits and maps. This makes me feel prepared in case something happens.
+S0143,20,Male,BSIT,4th Year,1.9,86.8,3.69,No,10,Dropout_Risk,Our school celebrates student diversity through events and awareness weeks.
+S0144,23,Female,BSME,3rd Year,1.99,88.93,8.18,Yes,9,Good,I feel confident that the school prioritizes student safety. Regular fire and earthquake drills help us stay ready.
+S0145,22,Male,BSECE,2nd Year,4.1,94.76,12.91,No,4,Dropout_Risk,"The library is quiet and comfortable, with plenty of space to study."
+S0146,23,Female,BSCE,4th Year,1.01,51.47,6.99,Yes,9,Good,Garbage bins are placed in strategic areas. It encourages us to dispose of waste properly.
+S0147,24,Female,BSIT,4th Year,2.84,60.74,16.46,Yes,8,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0148,24,Male,BSCE,3rd Year,2.38,60.35,1.17,No,7,Good,Crosswalks and traffic enforcers are present during peak hours. It helps reduce accidents near the school entrance.
+S0149,24,Male,BSCE,2nd Year,1.89,65.34,18.38,Yes,10,Good,The academic environment is competitive but supportive.
+S0150,24,Female,BSCE,2nd Year,3.86,53.84,11.66,No,0,Dropout_Risk,There?s always a nurse available at the clinic. I once visited for a headache and got assistance immediately.
+S0151,25,Female,BSECE,3rd Year,4.49,91.13,8.48,Yes,4,Dropout_Risk,The campus grounds are clean and well-maintained.
+S0152,22,Male,BSIT,4th Year,4.44,64.4,2.84,Yes,10,Dropout_Risk,The campus is generally quiet and peaceful. It?s a relaxing place to study and unwind.
+S0153,23,Male,BSCE,2nd Year,4.28,51.64,4.82,Yes,7,Good,Our teachers explain topics clearly and are open to questions. I feel encouraged to participate in class.
+S0154,25,Female,BSIT,1st Year,4.96,73.27,15.51,No,4,Probation,Our school celebrates student diversity through events and awareness weeks.
+S0155,20,Female,BSECE,3rd Year,1.64,59.05,8.87,No,7,Good,I appreciate how some professors share extra resources and articles for deeper learning. It shows they care about our growth.
+S0156,18,Female,BSCS,3rd Year,4.17,80.94,12.28,No,1,Probation,Our school celebrates student diversity through events and awareness weeks.
+S0157,22,Male,BSECE,2nd Year,1.55,66.11,13.93,Yes,7,Probation,We receive grades on time through the online portal. It helps us track our performance easily.
+S0158,24,Female,BSCE,2nd Year,3.41,90.63,8.19,No,7,Dropout_Risk,The campus grounds are clean and well-maintained.
+S0159,21,Male,BSIT,4th Year,2.54,94.96,11.47,Yes,3,Dropout_Risk,Our program offers a good balance of theory and hands-on practice. It prepares us well for the real world.
+S0160,23,Male,BSCE,1st Year,4.39,72.09,17.6,Yes,1,Probation,Our school celebrates student diversity through events and awareness weeks.
+S0161,22,Female,BSCE,1st Year,4.05,52.3,13.3,No,0,Dropout_Risk,Class schedules are well-planned and spaced out. I don?t feel rushed or overwhelmed.
+S0162,22,Male,BSCS,3rd Year,2.67,86.87,13.65,No,10,Dropout_Risk,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0163,19,Female,BSCS,1st Year,3.16,71,12.21,Yes,3,Good,"Group work is encouraged, which helps us improve our teamwork and communication skills. It?s also more fun learning with peers."
+S0164,25,Male,BSCE,1st Year,1.77,56.02,19.97,No,0,Dropout_Risk,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0165,20,Male,BSCS,2nd Year,4.86,64.93,18.9,Yes,4,Probation,My professors are approachable even outside of class. They listen and give helpful advice.
+S0166,20,Male,BSCE,4th Year,1.2,67.38,13.7,Yes,9,Good,Our school celebrates student diversity through events and awareness weeks.
+S0167,24,Female,BSECE,4th Year,1.18,51,18.04,No,1,Dropout_Risk,The curriculum is up-to-date and aligned with industry needs. I feel confident about my future career.
+S0168,23,Female,BSCE,1st Year,1.03,73.36,8.78,Yes,1,Dropout_Risk,Security guards are friendly and respectful. I feel safe walking around campus.
+S0169,20,Female,BSME,3rd Year,3.83,97.11,11.39,Yes,8,Good,We use a lot of real-life examples and case studies in class. It makes the lessons more relevant and practical.
+S0170,20,Male,BSME,1st Year,4.01,54.26,17.26,No,3,Good,"The library is quiet and comfortable, with plenty of space to study."
+S0171,22,Male,BSCE,1st Year,3.42,95.17,9.06,Yes,5,Probation,Exams are fair and based on what we?ve discussed. I feel motivated to study when I know what to expect.
+S0172,22,Male,BSME,1st Year,2.24,65.67,12.49,No,5,Good,There are so many student organizations to choose from. I found a group where I really belong.
+S0173,25,Female,BSCE,1st Year,3.15,62.45,10.52,Yes,3,Good,The academic environment is competitive but supportive.
+S0174,19,Male,BSIT,2nd Year,4.42,96.58,7.82,Yes,0,Dropout_Risk,Our school celebrates student diversity through events and awareness weeks. It?s inspiring and unifying.
+S0175,25,Male,BSCS,2nd Year,3.64,81.17,11.01,Yes,10,Good,The campus grounds are clean and well-maintained.
+S0176,21,Male,BSME,4th Year,3.61,57.28,9.89,Yes,4,Good,Being part of the student council helped me grow as a leader. I learned how to manage events and listen to others.
+S0177,18,Female,BSIT,4th Year,4.06,72.85,0.73,Yes,3,Probation,Restrooms are usually clean and have the necessary supplies.
+S0178,19,Male,BSME,3rd Year,4.28,59.42,7.54,No,9,Dropout_Risk,I enjoy the school fairs and sports fests. They?re well-organized and bring the community together.
+S0179,24,Female,BSME,1st Year,3.1,64.26,14.64,Yes,7,Probation,"The library is quiet and comfortable, with plenty of space to study."
+S0180,18,Female,BSCS,1st Year,4.75,78.22,12.91,No,1,Probation,There are plenty of workshops and seminars throughout the year. I?ve learned a lot beyond the classroom.
+S0181,23,Female,BSCE,2nd Year,2.18,86.2,0.63,No,5,Dropout_Risk,The campus grounds are clean and well-maintained.
+S0182,20,Female,BSIT,3rd Year,1.97,94.6,4.76,Yes,3,Dropout_Risk,We have good representation in student governance. They regularly update us and ask for our input.
+S0183,18,Female,BSECE,4th Year,1.19,80.19,17.45,Yes,2,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0184,24,Male,BSCE,4th Year,2.17,96.86,3.19,Yes,4,Probation,The arts and cultural programs are very enriching. I got to perform for the first time because of school support.
+S0185,23,Male,BSCE,1st Year,3.71,72.65,9.93,No,0,Good,"The library is quiet and comfortable, with plenty of space to study."
+S0186,25,Female,BSCE,4th Year,1.25,81.12,9.85,Yes,6,Probation,Volunteer opportunities are abundant. It helped me become more socially aware and compassionate.
+S0187,21,Female,BSIT,4th Year,2.12,84.02,17.07,No,9,Probation,"The library is quiet and comfortable, with plenty of space to study."
+S0188,24,Male,BSCE,1st Year,2.48,71.78,13.6,No,8,Good,The school promotes a positive and supportive atmosphere. People are respectful and friendly.
+S0189,23,Female,BSME,3rd Year,1.48,76.88,8.53,Yes,1,Good,Restrooms are usually clean and have the necessary supplies.
+S0190,18,Female,BSECE,3rd Year,4.43,67.46,12.44,No,4,Dropout_Risk,There?s always something exciting happening on campus. It keeps me engaged and motivated.
+S0191,21,Female,BSCE,1st Year,2.5,84.62,13.52,No,3,Probation,The guidance office is easy to approach and very helpful. I always feel supported when I talk to them.
+S0192,22,Male,BSCS,4th Year,1.76,53.31,15.44,No,10,Probation,The academic environment is competitive but supportive.
+S0193,22,Female,BSCS,3rd Year,3.76,72.57,19.37,Yes,5,Good,I like how inclusive our school is. Everyone is treated equally regardless of their background.
+S0194,18,Male,BSME,2nd Year,3.65,62.33,6.93,Yes,6,Dropout_Risk,The campus grounds are clean and well-maintained.
+S0195,24,Male,BSME,3rd Year,2.42,61.14,4.11,Yes,10,Probation,We had a mental health awareness week that helped me and my friends a lot. It made us feel seen and cared for.
+S0196,21,Female,BSCE,4th Year,1.86,90.1,1.99,Yes,6,Good,The academic environment is competitive but supportive.
+S0197,25,Male,BSIT,3rd Year,2,92.5,2.83,No,2,Probation,Students with disabilities are supported well by the school. I admire how accessible the buildings and materials are.
+S0198,24,Male,BSME,3rd Year,2.98,55.63,10.96,No,8,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0199,21,Female,BSECE,1st Year,3.15,82.41,10.87,No,1,Good,I appreciate how teachers are sensitive to our struggles. They give extensions when needed and listen to our concerns.
+S0200,25,Male,BSME,1st Year,3.78,90.9,13.3,Yes,8,Dropout_Risk,The academic environment is competitive but supportive.
+S0201,23,Male,BSCS,3rd Year,1.39,94.29,1.29,No,1,Good,The school observes gender sensitivity in lessons and communication. It?s a progressive and safe space.
+S0202,25,Male,BSME,4th Year,2.56,89.11,3.15,No,1,Good,Restrooms are usually clean and have the necessary supplies.
+S0203,23,Male,BSCS,3rd Year,1.39,94.29,1.29,No,1,Good,We are always encouraged to speak up during consultations and feedback sessions. It makes us feel valued.
+S0204,19,Male,BSCE,1st Year,1.7,92.01,19.74,No,10,Good,Our computer labs are equipped with the latest software we need for our program.
+S0205,20,Female,BSIT,3rd Year,2.99,84.88,1.89,No,2,Dropout_Risk,The school provides scholarships and financial aid to those in need. It helped my friend stay in school.
+S0206,24,Female,BSME,2nd Year,4.13,66.24,12.11,Yes,3,Good,The guidance office is easy to approach and very helpful.
+S0207,25,Female,BSME,4th Year,1.82,96.44,13.32,Yes,10,Good,Faculty and staff are very respectful and warm. They treat students with kindness and fairness.
+S0208,21,Male,BSCS,4th Year,1.02,58.63,16.44,No,4,Good,Restrooms are usually clean and have the necessary supplies.
+S0209,22,Male,BSIT,4th Year,4.44,64.4,2.84,Yes,10,Dropout_Risk,There?s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0210,23,Male,BSIT,2nd Year,4.78,51.88,11.04,Yes,4,Dropout_Risk,"Some classrooms are too crowded, making it hard to focus. It would help to reduce class sizes or improve seating arrangements."
+S0211,23,Female,BSME,4th Year,3.95,62.52,13.86,Yes,10,Dropout_Risk,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0212,22,Male,BSCS,2nd Year,1.72,74.35,5.29,No,3,Dropout_Risk,The air conditioning often breaks down during afternoon classes. Regular maintenance would make learning more comfortable.
+S0213,21,Female,BSME,4th Year,2.57,77.63,0.17,Yes,10,Probation,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0214,19,Female,BSIT,2nd Year,2.48,89.06,13.8,Yes,10,Probation,Many classrooms still use outdated projectors or none at all. Upgrading multimedia equipment would enhance lesson delivery.
+S0215,25,Male,BSCS,2nd Year,3.64,81.17,11.01,Yes,10,Good,Restrooms are usually clean and have the necessary supplies.
+S0216,25,Male,BSME,4th Year,2.56,89.11,3.15,No,1,Good,We don?t have enough computer units for large classes. Adding more workstations would ensure equal access.
+S0217,18,Female,BSCS,3rd Year,4.35,75.2,18.07,No,10,Good,Restrooms are usually clean and have the necessary supplies.
+S0218,18,Female,BSIT,4th Year,4.06,72.85,0.73,Yes,3,Probation,Some chairs and desks are broken and haven?t been replaced. A routine inspection would solve this problem.
+S0219,21,Female,BSIT,4th Year,2.12,84.02,17.07,No,9,Probation,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0220,25,Male,BSME,4th Year,2.56,89.11,3.15,No,1,Good,The Wi-Fi is unreliable in some areas of the campus. Improving the coverage would make research easier.
+S0221,24,Male,BSCE,4th Year,2.17,96.86,3.19,Yes,4,Probation,The guidance office is easy to approach and very helpful.
+S0222,23,Female,BSME,3rd Year,1.48,76.88,8.53,Yes,1,Good,The power outlets in most study areas don?t work. Fixing them would help students who rely on laptops.
+S0223,25,Male,BSECE,1st Year,2.46,52.82,15.72,Yes,3,Dropout_Risk,Our computer labs are equipped with the latest software we need for our program.
+S0224,22,Male,BSCS,2nd Year,1.72,74.35,5.29,No,3,Dropout_Risk,The library is too small for the number of students. A larger space or satellite reading rooms would help.
+S0225,24,Female,BSCE,2nd Year,3.86,53.84,11.66,No,0,Dropout_Risk,The academic environment is competitive but supportive.
+S0226,23,Male,BSCE,1st Year,3.71,72.65,9.93,No,0,Good,The drinking fountains are either broken or unhygienic. More maintenance checks would ensure they stay usable.
+S0227,21,Male,BSECE,4th Year,4.16,72.82,11.06,Yes,0,Dropout_Risk,The academic environment is competitive but supportive.
+S0228,23,Male,BSIT,4th Year,1,90.11,0.47,Yes,4,Good,The canteen food is overpriced and lacks variety. Offering affordable and healthier choices would benefit students.
+S0229,22,Male,BSECE,3rd Year,2.99,74.56,15.24,No,4,Probation,Some restrooms are consistently dirty and lack toilet paper. More frequent cleaning and restocking would improve hygiene.
+S0230,25,Female,BSCE,1st Year,3.15,62.45,10.52,Yes,3,Good,Restrooms are usually clean and have the necessary supplies.
+S0231,18,Female,BSME,1st Year,3.18,78.68,14.98,No,10,Dropout_Risk,There are not enough trash bins in outdoor areas. More bins would reduce littering on campus.
+S0232,23,Female,BSCS,2nd Year,3.47,96.13,4.9,Yes,2,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0233,21,Male,BSCE,1st Year,4.06,60.8,16.97,Yes,5,Good,Certain buildings have poor lighting in hallways. Installing brighter lights would make them safer and more inviting.
+S0234,24,Male,BSME,3rd Year,2.16,57.79,0.85,No,0,Dropout_Risk,Our computer labs are equipped with the latest software we need for our program.
+S0235,24,Male,BSCE,2nd Year,3.89,61.01,11.85,Yes,10,Dropout_Risk,There is no visible first-aid station in every building. It would help to have accessible emergency kits across campus.
+S0236,18,Male,BSME,2nd Year,3.65,62.33,6.93,Yes,6,Dropout_Risk,Our school celebrates student diversity through events and awareness weeks.
+S0237,18,Female,BSCS,1st Year,4.75,78.22,12.91,No,1,Probation,Security presence is inconsistent in some remote areas of the school. More regular patrols would improve safety.
+S0238,18,Male,BSIT,1st Year,4.56,74.87,12.35,No,1,Probation,Security guards are friendly and respectful. I feel safe walking around campus.
+S0239,23,Male,BSCS,3rd Year,1.39,94.29,1.29,No,1,Good,Fire exits are sometimes blocked by stored materials. Keeping them clear should be a priority for safety.
+S0240,20,Female,BSCE,1st Year,4.7,70.97,17.29,No,10,Probation,Security guards are friendly and respectful. I feel safe walking around campus.
+S0241,24,Female,BSCS,2nd Year,2.74,84.48,9.66,Yes,3,Dropout_Risk,Evacuation drills are not conducted regularly. A scheduled emergency preparedness plan would benefit everyone.
+S0242,24,Female,BSCE,2nd Year,3.86,53.84,11.66,No,0,Dropout_Risk,Security guards are friendly and respectful. I feel safe walking around campus.
+S0243,22,Male,BSECE,2nd Year,1.55,66.11,13.93,Yes,7,Probation,Some hallways flood when it rains. Improving drainage would prevent accidents and keep students dry.
+S0244,21,Female,BSCS,3rd Year,3.07,72.8,5.64,Yes,4,Dropout_Risk,Our school celebrates student diversity through events and awareness weeks.
+S0245,18,Female,BSIT,1st Year,2.76,88.56,9.14,No,9,Dropout_Risk,Certain staircases have loose railings. These should be fixed to prevent injuries.
+S0246,20,Female,BSECE,1st Year,2.19,77.29,18.59,Yes,5,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0247,22,Male,BSCS,3rd Year,2.67,86.87,13.65,No,10,Dropout_Risk,Stray animals wander around campus and pose a safety concern. A humane management plan should be implemented.
+S0248,24,Female,BSME,1st Year,3.1,64.26,14.64,Yes,7,Probation,Some instructors are not punctual and often cancel classes. This disrupts the flow of learning and wastes time.
+S0249,24,Female,BSME,2nd Year,1.2,73.56,7.1,No,4,Probation,The guidance office is easy to approach and very helpful.
+S0250,20,Female,BSIT,3rd Year,2.99,84.88,1.89,No,2,Dropout_Risk,The course materials are not always updated. Revising content regularly would help us stay industry-relevant.
+S0251,24,Male,BSCE,3rd Year,2.38,60.35,1.17,No,7,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0252,22,Male,BSECE,2nd Year,1.55,66.11,13.93,Yes,7,Probation,Grades take too long to be posted. A faster turnaround time would ease student anxiety.
+S0253,25,Male,BSECE,2nd Year,4.17,91.92,8.76,No,9,Good,Our computer labs are equipped with the latest software we need for our program.
+S0254,24,Female,BSIT,1st Year,3.93,59.69,13.15,Yes,0,Dropout_Risk,There's limited feedback on performance after exams. Detailed explanations would help us improve.
+S0255,20,Male,BSIT,2nd Year,3.96,52.69,17.79,No,10,Good,"The classrooms are bright, clean, and conducive to learning."
+S0256,21,Male,BSCS,4th Year,1.02,58.63,16.44,No,4,Good,Some professors don?t accommodate different learning styles. Using more varied teaching methods could help all students learn better.
+S0257,18,Female,BSIT,4th Year,1.07,98.87,12.9,Yes,1,Good,The campus grounds are clean and well-maintained.
+S0258,25,Male,BSIT,2nd Year,1.97,78.11,19.44,No,4,Dropout_Risk,"Group work is often unbalanced, with some students doing all the work. A better peer evaluation system would be fairer."
+S0259,23,Female,BSCS,1st Year,4.82,74.09,19.62,No,6,Probation,The guidance office is easy to approach and very helpful.
+S0260,20,Male,BSECE,3rd Year,1.41,67.49,9.48,Yes,6,Dropout_Risk,Labs and hands-on subjects feel rushed due to limited schedules. Extending lab time would deepen our learning.
+S0261,24,Male,BSME,3rd Year,2.16,57.79,0.85,No,0,Dropout_Risk,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0262,21,Female,BSCS,3rd Year,4.89,71.46,7.72,No,1,Good,There?s little support for students struggling academically. A peer mentoring or tutoring system would be helpful.
+S0263,20,Male,BSME,1st Year,4.01,54.26,17.26,No,3,Good,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0264,21,Female,BSIT,2nd Year,1.64,93.55,13.5,No,1,Good,There are few elective options to choose from. Expanding the offerings would allow for more personalized learning.
+S0265,24,Male,BSIT,1st Year,3.82,64.19,18.25,Yes,4,Dropout_Risk,The campus grounds are clean and well-maintained.
+S0266,24,Female,BSME,1st Year,4.12,54.56,3.63,Yes,3,Dropout_Risk,We lack access to updated journals and online academic databases. Subscriptions would improve the quality of our research.
+S0267,23,Male,BSIT,2nd Year,4.78,51.88,11.04,Yes,4,Dropout_Risk,Not all students are informed of upcoming events in time. Improving communication through multiple channels would help increase participation.
+S0268,21,Female,BSECE,3rd Year,1.66,92.64,8.96,Yes,1,Dropout_Risk,Our computer labs are equipped with the latest software we need for our program.
+S0269,20,Male,BSCS,4th Year,3.5,57.82,0.88,No,10,Good,Student organizations are sometimes cliquish and hard to join. Orientation sessions could make them more welcoming.
+S0270,18,Male,BSECE,2nd Year,4.71,61.45,5.92,Yes,6,Dropout_Risk,Our computer labs are equipped with the latest software we need for our program.
+S0271,23,Female,BSME,3rd Year,1.99,88.93,8.18,Yes,9,Good,There are limited spaces for students to hang out or study in groups. More common areas would promote collaboration.
+S0272,20,Male,BSECE,2nd Year,1.81,80.52,1.99,No,7,Probation,"The classrooms are bright, clean, and conducive to learning."
+S0273,23,Female,BSCS,2nd Year,3.47,96.13,4.9,Yes,2,Probation,Events often overlap with class schedules. Better coordination between organizers and faculty would resolve this.
+S0274,24,Male,BSECE,2nd Year,2.89,60.77,6.01,Yes,4,Good,The campus grounds are clean and well-maintained.
+S0275,24,Male,BSIT,1st Year,3.47,74.84,12.39,Yes,1,Good,Some extracurricular activities feel under-supported by the school. More funding and recognition would encourage student participation.
+S0276,21,Male,BSME,4th Year,3.61,57.28,9.89,Yes,4,Good,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0277,25,Male,BSECE,1st Year,2.46,52.82,15.72,Yes,3,Dropout_Risk,The school doesn?t always celebrate diversity in a visible way. More inclusive events would help everyone feel represented.
+S0278,18,Male,BSECE,1st Year,3.15,60.77,12.6,No,4,Probation,Our school celebrates student diversity through events and awareness weeks.
+S0279,20,Male,BSME,3rd Year,3.2,76.43,10.25,Yes,9,Probation,Student leaders are not always approachable. Regular town hall meetings could make leadership more accessible.
+S0280,24,Male,BSECE,4th Year,3.63,76.57,13.07,Yes,6,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0281,25,Female,BSECE,3rd Year,2.82,84.72,13.66,No,7,Dropout_Risk,There are not enough non-academic competitions or showcases. These would give students a chance to highlight their other talents.
+S0282,23,Male,BSIT,4th Year,1,90.11,0.47,Yes,4,Good,"The classrooms are bright, clean, and conducive to learning."
+S0283,19,Male,BSCE,3rd Year,1.5,54.01,17.8,No,3,Dropout_Risk,The bulletin boards are outdated and cluttered. A digital noticeboard system would be more effective.
+S0284,20,Female,BSCE,1st Year,4.7,70.97,17.29,No,10,Probation,The academic environment is competitive but supportive.
+S0285,24,Female,BSIT,1st Year,3.93,59.69,13.15,Yes,0,Dropout_Risk,There?s a lack of evening programs for working students. Offering flexible options would be inclusive.
+S0286,21,Female,BSECE,3rd Year,1.66,92.64,8.96,Yes,1,Dropout_Risk,It?s difficult to book appointments with the guidance office. Hiring more counselors would help meet student needs.
+S0287,21,Female,BSECE,3rd Year,1.66,92.64,8.96,Yes,1,Dropout_Risk,Security guards are friendly and respectful. I feel safe walking around campus.
+S0288,23,Female,BSCE,2nd Year,2.18,86.2,0.63,No,5,Dropout_Risk,Mental health support is not visible enough. Awareness campaigns would encourage more students to seek help.
+S0289,21,Female,BSCS,2nd Year,3.73,90.37,16.49,No,10,Good,"The library is quiet and comfortable, with plenty of space to study."
+S0290,24,Female,BSCE,2nd Year,4.48,79.93,18.73,Yes,3,Good,"Students with disabilities still face challenges in mobility. More ramps, elevators, and accessible signage are needed."
+S0291,20,Female,BSIT,3rd Year,2.99,84.88,1.89,No,2,Dropout_Risk,Our computer labs are equipped with the latest software we need for our program.
+S0292,19,Male,BSME,3rd Year,4.28,59.42,7.54,No,9,Dropout_Risk,Scholarship opportunities are not well-advertised. Better promotion would help students in need.
+S0293,23,Female,BSME,3rd Year,1.99,88.93,8.18,Yes,9,Good,The campus grounds are clean and well-maintained.
+S0294,19,Female,BSECE,3rd Year,4.33,97.27,14.4,No,1,Probation,Some teachers are not sensitive to personal issues affecting performance. Training on empathy and mental health would be beneficial.
+S0295,25,Male,BSCE,1st Year,1.77,56.02,19.97,No,0,Dropout_Risk,Restrooms are usually clean and have the necessary supplies.
+S0296,23,Female,BSIT,4th Year,4.87,86.92,16.38,Yes,3,Good,There?s a lack of forums for student feedback. Creating regular feedback channels would help improve policies.
+S0297,22,Female,BSME,3rd Year,1.09,67.62,1.83,No,4,Dropout_Risk,The guidance office is easy to approach and very helpful.
+S0298,19,Female,BSME,1st Year,1.4,88.11,19.33,No,9,Good,LGBTQ+ inclusion is not openly discussed in school. Adding topics on gender and identity in seminars would create awareness.
+S0299,22,Female,BSCS,3rd Year,1.43,55.41,17.08,No,0,Probation,The campus grounds are clean and well-maintained.
+S0300,22,Female,BSCE,1st Year,4.05,52.3,13.3,No,0,Dropout_Risk,The support system for working students is limited. Allowing asynchronous classes or flexible schedules would help.
+S0301,21,Female,BSCE,2nd Year,4.49,64.16,9.7,Yes,7,Probation,The campus grounds are clean and well-maintained.
+S0302,23,Female,BSECE,4th Year,4.29,56.83,0.71,No,4,Good,There are students who feel left out due to language barriers. Offering language support or English workshops would improve inclusion.
+S0303,23,Female,BSECE,3rd Year,3.83,58.61,3.31,No,6,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0304,22,Male,BSCS,1st Year,2.52,51.3,7.41,No,10,Good,There?s a need for career guidance early in the program. Regular counseling and career fairs would prepare us better for the future.
+S0305,22,Male,BSCE,1st Year,2.91,94.45,5.91,No,1,Dropout_Risk,"The classrooms are well-lit and spacious, but sometimes the fans are not enough during hot days."
+S0306,20,Male,BSECE,3rd Year,1.41,67.49,9.48,Yes,6,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0307,20,Male,BSME,1st Year,4.32,75.19,6.25,No,2,Probation,I enjoy studying in the library because it's quiet and peaceful.
+S0308,21,Female,BSECE,1st Year,3.15,82.41,10.87,No,1,Good,The academic environment is competitive but supportive.
+S0309,23,Male,BSCS,3rd Year,1.39,94.29,1.29,No,1,Good,"The Wi-Fi is slow in some areas, especially near the gym and back building."
+S0310,19,Female,BSCS,3rd Year,1.2,92.74,0.99,Yes,0,Dropout_Risk,The guidance office is easy to approach and very helpful.
+S0311,21,Male,BSME,4th Year,3.61,57.28,9.89,Yes,4,Good,Our teachers are very accommodating and answer questions clearly.
+S0312,23,Male,BSCS,3rd Year,1.39,94.29,1.29,No,1,Good,The campus grounds are clean and well-maintained.
+S0313,24,Male,BSECE,4th Year,3.63,76.57,13.07,Yes,6,Good,I feel safe on campus thanks to the security guards at every gate.
+S0314,25,Male,BSIT,3rd Year,2,92.5,2.83,No,2,Probation,"The classrooms are bright, clean, and conducive to learning."
+S0315,18,Male,BSCE,2nd Year,3.55,84.15,7.82,No,10,Good,"The restrooms could be cleaner, and sometimes they run out of tissue."
+S0316,22,Female,BSCE,1st Year,4.05,52.3,13.3,No,0,Dropout_Risk,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0317,24,Male,BSCE,3rd Year,2.2,62.49,10.18,No,10,Good,"I love how organized the student events are, especially the foundation week."
+S0318,23,Female,BSECE,3rd Year,3.83,58.61,3.31,No,6,Probation,Security guards are friendly and respectful. I feel safe walking around campus.
+S0319,18,Female,BSCS,3rd Year,4.35,75.2,18.07,No,10,Good,The chairs in our room are broken and need replacing.
+S0320,22,Male,BSCS,4th Year,1.76,53.31,15.44,No,10,Probation,"The classrooms are bright, clean, and conducive to learning."
+S0321,21,Male,BSME,3rd Year,3.38,74.36,8.09,No,9,Dropout_Risk,There aren't enough charging outlets in the common areas.
+S0322,22,Male,BSCE,1st Year,2.64,57.95,13.06,No,2,Dropout_Risk,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0323,18,Female,BSME,1st Year,3.18,78.68,14.98,No,10,Dropout_Risk,I like how the faculty respects student opinions and includes us in decisions.
+S0324,25,Male,BSCS,2nd Year,3.64,81.17,11.01,Yes,10,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0325,18,Male,BSCE,2nd Year,3.55,84.15,7.82,No,10,Good,"The guidance office is helpful, but the appointment slots are limited."
+S0326,19,Male,BSME,3rd Year,1.16,98.1,11.23,Yes,5,Good,"The library is quiet and comfortable, with plenty of space to study."
+S0327,20,Male,BSCS,4th Year,3.5,57.82,0.88,No,10,Good,Canteen food is decent but a little overpriced for students.
+S0328,21,Female,BSCE,1st Year,2.5,84.62,13.52,No,3,Probation,The guidance office is easy to approach and very helpful.
+S0329,19,Female,BSIT,2nd Year,2.48,89.06,13.8,Yes,10,Probation,"Class schedules are manageable, and there?s a good mix of lecture and hands-on activities."
+S0330,22,Male,BSCS,1st Year,1.65,73.41,19.33,Yes,10,Good,Our computer labs are equipped with the latest software we need for our program.
+S0331,22,Male,BSECE,2nd Year,1.55,66.11,13.93,Yes,7,Probation,The air-conditioning in the computer lab makes it comfortable to stay long hours.
+S0332,24,Female,BSCE,3rd Year,1.13,94.11,19.92,Yes,9,Good,The guidance office is easy to approach and very helpful.
+S0333,25,Male,BSME,3rd Year,2.35,54.5,12.86,No,7,Probation,Some of the lab equipment is outdated and needs to be upgraded.
+S0334,22,Female,BSME,4th Year,3.49,89.38,1.81,Yes,4,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0335,25,Female,BSCE,4th Year,1.25,81.12,9.85,Yes,6,Probation,The school gym is well-maintained and has everything we need for PE.
+S0336,24,Female,BSCE,2nd Year,3.86,53.84,11.66,No,0,Dropout_Risk,The academic environment is competitive but supportive.
+S0337,23,Female,BSME,4th Year,4.01,62.5,9.89,No,1,Good,Teachers are approachable and allow consultations after class.
+S0338,24,Female,BSCS,3rd Year,3.1,87.96,15.05,Yes,3,Good,"The library is quiet and comfortable, with plenty of space to study."
+S0339,23,Female,BSCS,1st Year,3.88,73.75,2.89,Yes,4,Good,I wish the library had more updated references for my course.
+S0340,24,Female,BSECE,4th Year,1.18,51,18.04,No,1,Dropout_Risk,Our computer labs are equipped with the latest software we need for our program.
+S0341,25,Female,BSME,4th Year,1.82,96.44,13.32,Yes,10,Good,The student council does a great job keeping everyone informed.
+S0342,25,Female,BSME,4th Year,1.82,96.44,13.32,Yes,10,Good,Our school celebrates student diversity through events and awareness weeks.
+S0343,24,Male,BSIT,1st Year,1.1,83.66,19.6,No,7,Good,"Group activities in class are helpful, but not everyone contributes equally."
+S0344,19,Female,BSME,1st Year,4.13,92.32,11.02,No,8,Good,Our school celebrates student diversity through events and awareness weeks.
+S0345,20,Male,BSECE,2nd Year,1.81,80.52,1.99,No,7,Probation,It's hard to find a quiet place during lunch because the campus gets noisy.
+S0346,25,Male,BSECE,1st Year,2.46,52.82,15.72,Yes,3,Dropout_Risk,Security guards are friendly and respectful. I feel safe walking around campus.
+S0347,24,Male,BSCE,4th Year,2.17,96.86,3.19,Yes,4,Probation,More shaded seating areas would be great during break times.
+S0348,18,Male,BSCE,2nd Year,3.55,84.15,7.82,No,10,Good,Our computer labs are equipped with the latest software we need for our program.
+S0349,23,Male,BSIT,4th Year,1,90.11,0.47,Yes,4,Good,"School events are fun, but sometimes overlap with major exams."
+S0350,24,Female,BSME,2nd Year,1.2,73.56,7.1,No,4,Probation,The guidance office is easy to approach and very helpful.
+S0351,19,Female,BSME,1st Year,4.13,92.32,11.02,No,8,Good,"The computer labs are always in use, so booking time is difficult."
+S0352,22,Female,BSCS,3rd Year,1.43,55.41,17.08,No,0,Probation,Our school celebrates student diversity through events and awareness weeks.
+S0353,24,Female,BSCS,2nd Year,2.74,84.48,9.66,Yes,3,Dropout_Risk,"Our instructors post grades on time, which helps me track my performance."
+S0354,22,Male,BSCS,3rd Year,2.67,86.87,13.65,No,10,Dropout_Risk,The academic environment is competitive but supportive.
+S0355,24,Female,BSECE,2nd Year,1.44,99.4,18.92,No,1,Probation,There?s little parking space for those with motorbikes.
+S0356,25,Male,BSME,4th Year,2.56,89.11,3.15,No,1,Good,Our school celebrates student diversity through events and awareness weeks.
+S0357,24,Female,BSECE,4th Year,1.99,84.83,8.36,Yes,8,Good,"The elevators take a while, especially during peak hours."
+S0358,25,Male,BSME,3rd Year,2.35,54.5,12.86,No,7,Probation,Restrooms are usually clean and have the necessary supplies.
+S0359,21,Female,BSECE,3rd Year,1.66,92.64,8.96,Yes,1,Dropout_Risk,More student lounges would make the campus more comfortable.
+S0360,24,Male,BSME,3rd Year,2.42,61.14,4.11,Yes,10,Probation,"The library is quiet and comfortable, with plenty of space to study."
+S0361,18,Male,BSCE,1st Year,4.58,83.47,17.1,No,1,Good,The school clinic is responsive and provides free meds when needed.
+S0362,22,Male,BSIT,4th Year,4.44,64.4,2.84,Yes,10,Dropout_Risk,"The library is quiet and comfortable, with plenty of space to study."
+S0363,24,Male,BSIT,1st Year,3.47,74.84,12.39,Yes,1,Good,There?s too much focus on theory; we need more fieldwork.
+S0364,25,Male,BSME,4th Year,2.56,89.11,3.15,No,1,Good,The guidance office is easy to approach and very helpful.
+S0365,18,Female,BSCS,3rd Year,4.35,75.2,18.07,No,10,Good,"Professors often arrive late, cutting short our learning time."
+S0366,20,Male,BSCE,4th Year,4.99,92.01,0.87,No,0,Probation,The guidance office is easy to approach and very helpful.
+S0367,24,Male,BSCE,4th Year,2.17,96.86,3.19,Yes,4,Probation,I feel like there's not enough recognition for non-academic student achievements.
+S0368,20,Male,BSCS,4th Year,3.5,57.82,0.88,No,10,Good,The academic environment is competitive but supportive.
+S0369,25,Female,BSIT,1st Year,4.96,73.27,15.51,No,4,Probation,Orientation week helped me adjust easily as a freshman.
+S0370,24,Male,BSCE,2nd Year,3.89,61.01,11.85,Yes,10,Dropout_Risk,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0371,24,Male,BSECE,2nd Year,2.89,60.77,6.01,Yes,4,Good,Some staff in the registrar?s office could be more accommodating.
+S0372,21,Male,BSIT,4th Year,2.54,94.96,11.47,Yes,3,Dropout_Risk,"The library is quiet and comfortable, with plenty of space to study."
+S0373,19,Male,BSCE,1st Year,1.7,92.01,19.74,No,10,Good,Our department offers a lot of internship opportunities.
+S0374,19,Female,BSCS,3rd Year,1.2,92.74,0.99,Yes,0,Dropout_Risk,The campus grounds are clean and well-maintained.
+S0375,24,Male,BSIT,3rd Year,2.87,81,2.19,No,3,Good,The campus is clean and well-maintained overall.
+S0376,24,Male,BSME,3rd Year,2.98,55.63,10.96,No,8,Probation,The academic environment is competitive but supportive.
+S0377,24,Female,BSCS,4th Year,4.96,85.69,2.69,Yes,9,Good,I appreciate the school?s efforts in promoting mental health awareness.
+S0378,19,Female,BSCS,1st Year,3.16,71,12.21,Yes,3,Good,The guidance office is easy to approach and very helpful.
+S0379,21,Female,BSIT,4th Year,2.12,84.02,17.07,No,9,Probation,The online portal sometimes crashes during enrollment.
+S0380,22,Male,BSCE,1st Year,2.91,94.45,5.91,No,1,Dropout_Risk,The guidance office is easy to approach and very helpful.
+S0381,21,Female,BSME,1st Year,3.62,66.55,19.05,Yes,0,Probation,There are too few microwaves in the canteen for students who bring lunch.
+S0382,24,Male,BSME,3rd Year,2.42,61.14,4.11,Yes,10,Probation,Restrooms are usually clean and have the necessary supplies.
+S0383,22,Male,BSCE,1st Year,2.64,57.95,13.06,No,2,Dropout_Risk,I enjoy working with classmates from different backgrounds.
+S0384,25,Male,BSECE,3rd Year,1.27,54.71,4.85,Yes,10,Dropout_Risk,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0385,23,Female,BSIT,4th Year,2.79,84.92,4.53,Yes,3,Probation,I think there should be more electives related to current trends.
+S0386,18,Female,BSECE,4th Year,1.19,80.19,17.45,Yes,2,Good,The academic environment is competitive but supportive.
+S0387,22,Male,BSME,1st Year,1.01,51.95,1.68,Yes,9,Good,I wish our program had more specialized facilities.
+S0388,18,Female,BSCS,3rd Year,4.35,75.2,18.07,No,10,Good,The guidance office is easy to approach and very helpful.
+S0389,24,Male,BSME,3rd Year,2.98,55.63,10.96,No,8,Probation,The drinking fountains don?t always work.
+S0390,24,Male,BSIT,1st Year,3.82,64.19,18.25,Yes,4,Dropout_Risk,The academic environment is competitive but supportive.
+S0391,19,Female,BSECE,3rd Year,4.33,97.27,14.4,No,1,Probation,Some professors rely too much on PowerPoint without discussion.
+S0392,18,Male,BSECE,1st Year,3.63,56.8,9.7,No,8,Good,The campus grounds are clean and well-maintained.
+S0393,20,Male,BSCS,2nd Year,4.86,64.93,18.9,Yes,4,Probation,"Classrooms are clean, but some don?t have whiteboards that erase properly."
+S0394,18,Female,BSCS,1st Year,4.75,78.22,12.91,No,1,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0395,25,Male,BSME,4th Year,2.56,89.11,3.15,No,1,Good,I?ve made great friends here because of the welcoming environment.
+S0396,18,Male,BSME,2nd Year,3.8,98.7,11.75,No,10,Probation,The academic environment is competitive but supportive.
+S0397,25,Male,BSCS,1st Year,1.1,76.92,12.23,No,4,Good,"Students are generally respectful, and there?s little bullying."
+S0398,24,Female,BSME,1st Year,3.1,64.26,14.64,Yes,7,Probation,The academic environment is competitive but supportive.
+S0399,23,Male,BSCS,3rd Year,1.39,94.29,1.29,No,1,Good,I like how the campus celebrates cultural diversity.
+S0400,25,Female,BSIT,1st Year,1.72,57.88,2.9,No,9,Dropout_Risk,The guidance office is easy to approach and very helpful.
+S0401,24,Male,BSME,3rd Year,2.16,57.79,0.85,No,0,Dropout_Risk,I would love to have more field trips or industry visits.
+S0402,25,Male,BSIT,3rd Year,4.83,86.07,11.54,Yes,0,Probation,Security guards are friendly and respectful. I feel safe walking around campus.
+S0403,20,Male,BSCS,4th Year,4.19,65.82,14.54,Yes,5,Dropout_Risk,The school could offer more scholarship opportunities.
+S0404,24,Male,BSIT,1st Year,3.82,64.19,18.25,Yes,4,Dropout_Risk,The campus grounds are clean and well-maintained.
+S0405,24,Male,BSCE,4th Year,2.17,96.86,3.19,Yes,4,Probation,The campus layout is confusing for new students.
+S0406,18,Male,BSIT,1st Year,2.78,60.3,2.55,Yes,6,Probation,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0407,21,Female,BSIT,4th Year,2.12,84.02,17.07,No,9,Probation,There are no bike racks near our building.
+S0408,21,Female,BSCS,2nd Year,3.73,90.37,16.49,No,10,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0409,23,Male,BSCE,1st Year,4.33,78.51,1.51,Yes,4,Good,"Teachers try to make lessons engaging, which helps a lot."
+S0410,21,Male,BSIT,2nd Year,4.17,76.21,7.32,Yes,5,Dropout_Risk,The academic environment is competitive but supportive.
+S0411,25,Male,BSECE,2nd Year,4.65,61.98,16.6,No,7,Good,It?s hard to focus when classes are scheduled too close together.
+S0412,18,Male,BSCE,2nd Year,1.58,73.95,7.12,Yes,5,Probation,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0413,21,Female,BSCS,3rd Year,3.07,72.8,5.64,Yes,4,Dropout_Risk,I?m thankful that faculty listen to feedback and improve.
+S0414,25,Male,BSME,3rd Year,2.35,54.5,12.86,No,7,Probation,Restrooms are usually clean and have the necessary supplies.
+S0415,21,Male,BSECE,4th Year,4.16,72.82,11.06,Yes,0,Dropout_Risk,The noise from nearby construction sometimes disrupts class.
+S0416,22,Male,BSME,1st Year,2.24,65.67,12.49,No,5,Good,Restrooms are usually clean and have the necessary supplies.
+S0417,18,Male,BSME,3rd Year,3.34,87.99,0.78,Yes,5,Probation,I love the new student lounge?they should build more like it.
+S0418,23,Female,BSME,4th Year,4.01,62.5,9.89,No,1,Good,"The classrooms are bright, clean, and conducive to learning."
+S0419,19,Female,BSCS,1st Year,3.16,71,12.21,Yes,3,Good,The online learning platform is user-friendly and organized.
+S0420,20,Male,BSME,1st Year,4.32,75.19,6.25,No,2,Probation,Our school celebrates student diversity through events and awareness weeks.
+S0421,21,Male,BSCE,1st Year,4.06,60.8,16.97,Yes,5,Good,I hope the school allows more flexible schedules for working students.
+S0422,20,Male,BSIT,4th Year,1.9,86.8,3.69,No,10,Dropout_Risk,The guidance office is easy to approach and very helpful.
+S0423,24,Male,BSIT,1st Year,3.82,64.19,18.25,Yes,4,Dropout_Risk,There should be better systems for printing or document requests.
+S0424,23,Female,BSME,4th Year,2.29,65.13,16.97,No,9,Dropout_Risk,Security guards are friendly and respectful. I feel safe walking around campus.
+S0425,20,Male,BSCS,4th Year,3.5,57.82,0.88,No,10,Good,Some chairs are too small and uncomfortable.
+S0426,19,Female,BSECE,3rd Year,4.33,97.27,14.4,No,1,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0427,25,Female,BSIT,1st Year,4.96,73.27,15.51,No,4,Probation,Professors usually explain topics clearly and give examples.
+S0428,25,Male,BSECE,2nd Year,4.65,61.98,16.6,No,7,Good,The guidance office is easy to approach and very helpful.
+S0429,22,Female,BSME,3rd Year,1.09,67.62,1.83,No,4,Dropout_Risk,The guidance counselor helped me deal with academic pressure.
+S0430,23,Male,BSECE,4th Year,2.99,70.35,16.88,No,6,Probation,The guidance office is easy to approach and very helpful.
+S0431,23,Female,BSIT,4th Year,2.79,84.92,4.53,Yes,3,Probation,There aren?t enough seats during school-wide events.
+S0432,20,Male,BSIT,4th Year,1.9,86.8,3.69,No,10,Dropout_Risk,Restrooms are usually clean and have the necessary supplies.
+S0433,21,Female,BSCS,3rd Year,4.89,71.46,7.72,No,1,Good,I would prefer if the school updated its lab software.
+S0434,25,Male,BSECE,1st Year,2.25,83.49,16.99,Yes,2,Probation,Our school celebrates student diversity through events and awareness weeks.
+S0435,22,Male,BSCS,4th Year,1.76,53.31,15.44,No,10,Probation,School activities promote teamwork and school spirit.
+S0436,20,Male,BSME,1st Year,4.01,54.26,17.26,No,3,Good,Restrooms are usually clean and have the necessary supplies.
+S0437,18,Female,BSME,1st Year,3.3,79.7,17.41,Yes,8,Good,There should be more awareness on students with special needs.
+S0438,24,Female,BSCS,4th Year,4.96,85.69,2.69,Yes,9,Good,Our school celebrates student diversity through events and awareness weeks.
+S0439,23,Male,BSECE,4th Year,2.99,70.35,16.88,No,6,Probation,"Cafeteria staff are polite, and the food is always fresh."
+S0440,20,Female,BSECE,3rd Year,1.64,59.05,8.87,No,7,Good,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0441,19,Male,BSME,3rd Year,4.28,59.42,7.54,No,9,Dropout_Risk,Admin processes take too long during enrollment.
+S0442,18,Female,BSME,1st Year,3.3,79.7,17.41,Yes,8,Good,Our school celebrates student diversity through events and awareness weeks.
+S0443,25,Male,BSIT,2nd Year,1.97,78.11,19.44,No,4,Dropout_Risk,The free seminars are informative and helpful for our career paths.
+S0444,25,Male,BSIT,3rd Year,2,92.5,2.83,No,2,Probation,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0445,25,Female,BSIT,4th Year,3.54,60.22,18.23,No,6,Probation,I learned a lot from the OJT orientation.
+S0446,18,Male,BSME,3rd Year,3.34,87.99,0.78,Yes,5,Probation,The campus grounds are clean and well-maintained.
+S0447,24,Male,BSIT,2nd Year,3.89,86.8,12.3,Yes,9,Good,We need more bins for segregated waste disposal.
+S0448,24,Female,BSCE,2nd Year,3.86,53.84,11.66,No,0,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0449,22,Male,BSCE,1st Year,2.91,94.45,5.91,No,1,Dropout_Risk,I appreciate that the school supports student-led initiatives.
+S0450,23,Female,BSIT,4th Year,2.79,84.92,4.53,Yes,3,Probation,The campus grounds are clean and well-maintained.
+S0451,20,Male,BSECE,3rd Year,1.41,67.49,9.48,Yes,6,Dropout_Risk,There are no clocks in some classrooms.
+S0452,22,Male,BSECE,3rd Year,2.99,74.56,15.24,No,4,Probation,"The classrooms are bright, clean, and conducive to learning."
+S0453,20,Male,BSME,1st Year,4.01,54.26,17.26,No,3,Good,Teachers give fair and constructive feedback.
+S0454,23,Female,BSECE,3rd Year,3.83,58.61,3.31,No,6,Probation,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0455,20,Male,BSME,1st Year,4.01,54.26,17.26,No,3,Good,More accessible facilities are needed for students with disabilities.
+S0456,24,Female,BSCS,3rd Year,3.1,87.96,15.05,Yes,3,Good,The guidance office is easy to approach and very helpful.
+S0457,25,Male,BSME,4th Year,2.56,89.11,3.15,No,1,Good,Some students smoke in unauthorized areas.
+S0458,20,Male,BSME,1st Year,4.01,54.26,17.26,No,3,Good,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0459,18,Female,BSIT,1st Year,2.76,88.56,9.14,No,9,Dropout_Risk,I would like more training in resume writing and interviews.
+S0460,25,Male,BSME,4th Year,3.58,76.61,7.66,Yes,1,Dropout_Risk,"The library is quiet and comfortable, with plenty of space to study."
+S0461,24,Male,BSIT,3rd Year,2.87,81,2.19,No,3,Good,Teachers usually respond quickly through email.
+S0462,22,Female,BSCE,3rd Year,2.71,93.78,12.45,No,1,Dropout_Risk,Restrooms are usually clean and have the necessary supplies.
+S0463,22,Male,BSCE,1st Year,2.91,94.45,5.91,No,1,Dropout_Risk,I feel safe staying late due to night guards and lighting.
+S0464,18,Female,BSME,1st Year,3.3,79.7,17.41,Yes,8,Good,The academic environment is competitive but supportive.
+S0465,18,Female,BSCE,4th Year,2.13,80.94,6.76,No,1,Probation,The school internet blocks too many useful websites.
+S0466,20,Female,BSECE,1st Year,1.23,69.45,0.11,No,10,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0467,24,Female,BSIT,4th Year,2.84,60.74,16.46,Yes,8,Good,Student elections are well-organized and transparent.
+S0468,23,Male,BSCE,1st Year,3.71,72.65,9.93,No,0,Good,"The classrooms are bright, clean, and conducive to learning."
+S0469,20,Female,BSIT,3rd Year,2.99,84.88,1.89,No,2,Dropout_Risk,The library staff are friendly and helpful.
+S0470,18,Female,BSIT,1st Year,2.76,88.56,9.14,No,9,Dropout_Risk,The academic environment is competitive but supportive.
+S0471,24,Male,BSCE,2nd Year,3.89,61.01,11.85,Yes,10,Dropout_Risk,I want more learning materials in digital format.
+S0472,23,Female,BSIT,4th Year,2.79,84.92,4.53,Yes,3,Probation,Security guards are friendly and respectful. I feel safe walking around campus.
+S0473,21,Female,BSECE,1st Year,3.15,82.41,10.87,No,1,Good,Campus grounds are very relaxing for study breaks.
+S0474,25,Female,BSECE,3rd Year,4.49,91.13,8.48,Yes,4,Dropout_Risk,The academic environment is competitive but supportive.
+S0475,25,Female,BSIT,1st Year,1.42,50.15,17.86,No,3,Probation,School policies are clear and consistently enforced.
+S0476,24,Male,BSIT,1st Year,1.1,83.66,19.6,No,7,Good,"The classrooms are bright, clean, and conducive to learning."
+S0477,23,Female,BSECE,3rd Year,3.83,58.61,3.31,No,6,Probation,I appreciate the transparency of tuition breakdown.
+S0478,19,Female,BSIT,2nd Year,2.48,89.06,13.8,Yes,10,Probation,"The classrooms are bright, clean, and conducive to learning."
+S0479,24,Female,BSECE,2nd Year,1.44,99.4,18.92,No,1,Probation,There are no available lockers for personal belongings.
+S0480,25,Male,BSIT,3rd Year,2,92.5,2.83,No,2,Probation,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0481,24,Male,BSCE,3rd Year,2.38,60.35,1.17,No,7,Good,Students are encouraged to voice their concerns.
+S0482,21,Female,BSME,1st Year,3.62,66.55,19.05,Yes,0,Probation,The guidance office is easy to approach and very helpful.
+S0483,18,Male,BSIT,1st Year,4.56,74.87,12.35,No,1,Probation,The bulletin boards are updated with useful information.
+S0484,25,Male,BSME,3rd Year,2.35,54.5,12.86,No,7,Probation,"The library is quiet and comfortable, with plenty of space to study."
+S0485,24,Female,BSME,1st Year,4.12,54.56,3.63,Yes,3,Dropout_Risk,More cross-discipline projects would be exciting.
+S0486,24,Male,BSME,3rd Year,2.16,57.79,0.85,No,0,Dropout_Risk,"The library is quiet and comfortable, with plenty of space to study."
+S0487,24,Female,BSECE,4th Year,1,84.59,9.44,Yes,3,Good,The school supports both academics and extracurriculars.
+S0488,24,Female,BSECE,4th Year,1.18,51,18.04,No,1,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0489,20,Female,BSIT,3rd Year,2.99,84.88,1.89,No,2,Dropout_Risk,"Sometimes, the projectors don't work during presentations."
+S0490,21,Female,BSME,4th Year,2.57,77.63,0.17,Yes,10,Probation,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0491,23,Female,BSME,4th Year,3.95,62.52,13.86,Yes,10,Dropout_Risk,The air quality in the gym could be improved.
+S0492,23,Female,BSIT,2nd Year,1.53,99.56,14.86,Yes,0,Dropout_Risk,The guidance office is easy to approach and very helpful.
+S0493,23,Female,BSME,3rd Year,1.99,88.93,8.18,Yes,9,Good,"Teachers take attendance seriously, which keeps us disciplined."
+S0494,18,Female,BSCE,3rd Year,2.7,54.06,8.95,No,3,Probation,The guidance office is easy to approach and very helpful.
+S0495,23,Female,BSECE,3rd Year,3.83,58.61,3.31,No,6,Probation,Course prerequisites aren?t always explained well.
+S0496,18,Male,BSIT,1st Year,4.56,74.87,12.35,No,1,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0497,25,Male,BSME,3rd Year,2.35,54.5,12.86,No,7,Probation,The campus app is helpful for schedules and announcements.
+S0498,18,Male,BSME,3rd Year,3.34,87.99,0.78,Yes,5,Probation,The campus grounds are clean and well-maintained.
+S0499,21,Male,BSCS,1st Year,2.12,91.62,7.68,Yes,6,Probation,I feel a sense of belonging here.
+S0500,21,Female,BSME,4th Year,2.57,77.63,0.17,Yes,10,Probation,The campus grounds are clean and well-maintained.
+S0501,22,Male,BSCE,1st Year,3.42,95.17,9.06,Yes,5,Probation,The school should allow casual attire on non-uniform days.
+S0502,21,Female,BSCS,2nd Year,1.27,90.67,18.73,Yes,3,Good,Our computer labs are equipped with the latest software we need for our program.
+S0503,21,Female,BSCE,1st Year,2.5,84.62,13.52,No,3,Probation,"Overall, I enjoy being part of this learning community."
+S0504,24,Male,BSECE,2nd Year,2.89,60.77,6.01,Yes,4,Good,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0505,25,Male,BSCE,1st Year,1.77,56.02,19.97,No,0,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0506,22,Male,BSCS,1st Year,2.52,51.3,7.41,No,10,Good,"The library is quiet and comfortable, with plenty of space to study."
+S0507,24,Male,BSCE,3rd Year,2.38,60.35,1.17,No,7,Good,"The library is quiet and comfortable, with plenty of space to study."
+S0508,21,Female,BSME,1st Year,3.62,66.55,19.05,Yes,0,Probation,"The library is quiet and comfortable, with plenty of space to study."
+S0509,24,Male,BSME,3rd Year,2.16,57.79,0.85,No,0,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0510,25,Female,BSIT,4th Year,3.54,60.22,18.23,No,6,Probation,The campus grounds are clean and well-maintained.
+S0511,21,Female,BSCS,3rd Year,3.07,72.8,5.64,Yes,4,Dropout_Risk,The campus grounds are clean and well-maintained.
+S0512,24,Male,BSECE,2nd Year,2.89,60.77,6.01,Yes,4,Good,"The library is quiet and comfortable, with plenty of space to study."
+S0513,25,Female,BSECE,3rd Year,2.82,84.72,13.66,No,7,Dropout_Risk,Restrooms are usually clean and have the necessary supplies.
+S0514,18,Female,BSME,1st Year,3.3,79.7,17.41,Yes,8,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0515,23,Female,BSECE,3rd Year,3.83,58.61,3.31,No,6,Probation,The academic environment is competitive but supportive.
+S0516,20,Male,BSCS,4th Year,4.19,65.82,14.54,Yes,5,Dropout_Risk,The guidance office is easy to approach and very helpful.
+S0517,18,Male,BSECE,1st Year,3.63,56.8,9.7,No,8,Good,Our computer labs are equipped with the latest software we need for our program.
+S0518,25,Male,BSCE,1st Year,1.77,56.02,19.97,No,0,Dropout_Risk,Our school celebrates student diversity through events and awareness weeks.
+S0519,18,Female,BSIT,1st Year,2.76,88.56,9.14,No,9,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0520,19,Female,BSME,1st Year,4.13,92.32,11.02,No,8,Good,Our school celebrates student diversity through events and awareness weeks.
+S0521,20,Female,BSME,2nd Year,4.9,57.86,6.01,No,1,Dropout_Risk,"The library is quiet and comfortable, with plenty of space to study."
+S0522,18,Female,BSECE,4th Year,1.19,80.19,17.45,Yes,2,Good,Our computer labs are equipped with the latest software we need for our program.
+S0523,18,Female,BSCS,3rd Year,4.17,80.94,12.28,No,1,Probation,The guidance office is easy to approach and very helpful.
+S0524,25,Male,BSME,4th Year,2.56,89.11,3.15,No,1,Good,Restrooms are usually clean and have the necessary supplies.
+S0525,22,Male,BSCE,1st Year,3.42,95.17,9.06,Yes,5,Probation,The campus grounds are clean and well-maintained.
+S0526,23,Female,BSCE,4th Year,1.54,78.35,5.19,No,4,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0527,24,Male,BSCE,4th Year,2.17,96.86,3.19,Yes,4,Probation,Our school celebrates student diversity through events and awareness weeks.
+S0528,20,Male,BSIT,2nd Year,3.96,52.69,17.79,No,10,Good,"The classrooms are bright, clean, and conducive to learning."
+S0529,24,Female,BSCE,3rd Year,1.13,94.11,19.92,Yes,9,Good,Our computer labs are equipped with the latest software we need for our program.
+S0530,18,Male,BSCS,4th Year,1.3,89.9,17.47,Yes,5,Probation,The campus grounds are clean and well-maintained.
+S0531,20,Male,BSCE,4th Year,1.2,67.38,13.7,Yes,9,Good,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0532,22,Female,BSME,3rd Year,1.09,67.62,1.83,No,4,Dropout_Risk,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0533,25,Male,BSECE,4th Year,1.26,92.12,6.01,Yes,0,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0534,21,Female,BSCS,3rd Year,4.89,71.46,7.72,No,1,Good,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0535,25,Female,BSCE,4th Year,1.25,81.12,9.85,Yes,6,Probation,The campus grounds are clean and well-maintained.
+S0536,20,Female,BSCE,1st Year,4.7,70.97,17.29,No,10,Probation,Security guards are friendly and respectful. I feel safe walking around campus.
+S0537,20,Male,BSIT,1st Year,1.57,87.81,5.74,Yes,7,Dropout_Risk,"The library is quiet and comfortable, with plenty of space to study."
+S0538,23,Male,BSIT,4th Year,1,90.11,0.47,Yes,4,Good,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0539,25,Male,BSECE,2nd Year,4.65,61.98,16.6,No,7,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0540,18,Male,BSCE,2nd Year,1.58,73.95,7.12,Yes,5,Probation,"The classrooms are bright, clean, and conducive to learning."
+S0541,18,Male,BSME,2nd Year,4.75,83.84,3.71,No,1,Dropout_Risk,The campus grounds are clean and well-maintained.
+S0542,18,Female,BSECE,3rd Year,4.43,67.46,12.44,No,4,Dropout_Risk,Our computer labs are equipped with the latest software we need for our program.
+S0543,23,Male,BSIT,2nd Year,4.78,51.88,11.04,Yes,4,Dropout_Risk,Security guards are friendly and respectful. I feel safe walking around campus.
+S0544,25,Male,BSIT,2nd Year,1.97,78.11,19.44,No,4,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0545,19,Male,BSIT,2nd Year,4.42,96.58,7.82,Yes,0,Dropout_Risk,"The library is quiet and comfortable, with plenty of space to study."
+S0546,18,Male,BSCS,4th Year,1.3,89.9,17.47,Yes,5,Probation,"The library is quiet and comfortable, with plenty of space to study."
+S0547,24,Female,BSME,2nd Year,4.13,66.24,12.11,Yes,3,Good,Our school celebrates student diversity through events and awareness weeks.
+S0548,19,Male,BSCE,1st Year,1.7,92.01,19.74,No,10,Good,Our computer labs are equipped with the latest software we need for our program.
+S0549,24,Male,BSCE,2nd Year,3.89,61.01,11.85,Yes,10,Dropout_Risk,Our computer labs are equipped with the latest software we need for our program.
+S0550,21,Female,BSME,1st Year,3.62,66.55,19.05,Yes,0,Probation,The campus grounds are clean and well-maintained.
+S0551,20,Male,BSECE,2nd Year,1.81,80.52,1.99,No,7,Probation,The guidance office is easy to approach and very helpful.
+S0552,25,Male,BSECE,1st Year,2.25,83.49,16.99,Yes,2,Probation,"The library is quiet and comfortable, with plenty of space to study."
+S0553,24,Male,BSIT,1st Year,3.47,74.84,12.39,Yes,1,Good,Our school celebrates student diversity through events and awareness weeks.
+S0554,20,Male,BSIT,4th Year,1.9,86.8,3.69,No,10,Dropout_Risk,The academic environment is competitive but supportive.
+S0555,21,Male,BSIT,4th Year,2.54,94.96,11.47,Yes,3,Dropout_Risk,The academic environment is competitive but supportive.
+S0556,18,Male,BSCE,2nd Year,3.55,84.15,7.82,No,10,Good,The academic environment is competitive but supportive.
+S0557,23,Male,BSCE,1st Year,4.39,72.09,17.6,Yes,1,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0558,25,Male,BSCS,1st Year,1.1,76.92,12.23,No,4,Good,"The classrooms are bright, clean, and conducive to learning."
+S0559,19,Female,BSME,1st Year,4.13,92.32,11.02,No,8,Good,The guidance office is easy to approach and very helpful.
+S0560,24,Female,BSIT,4th Year,2.46,69.01,3.86,Yes,5,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0561,23,Male,BSIT,4th Year,1,90.11,0.47,Yes,4,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0562,21,Female,BSCS,3rd Year,3.07,72.8,5.64,Yes,4,Dropout_Risk,Our computer labs are equipped with the latest software we need for our program.
+S0563,25,Male,BSIT,3rd Year,4.83,86.07,11.54,Yes,0,Probation,Our school celebrates student diversity through events and awareness weeks.
+S0564,21,Male,BSECE,4th Year,4.16,72.82,11.06,Yes,0,Dropout_Risk,Our computer labs are equipped with the latest software we need for our program.
+S0565,20,Male,BSIT,4th Year,1.9,86.8,3.69,No,10,Dropout_Risk,The academic environment is competitive but supportive.
+S0566,21,Female,BSIT,3rd Year,3.02,98.22,18.57,No,6,Dropout_Risk,"The library is quiet and comfortable, with plenty of space to study."
+S0567,20,Male,BSCE,4th Year,2.09,70.29,3.34,No,9,Probation,The academic environment is competitive but supportive.
+S0568,21,Female,BSCE,4th Year,1.86,90.1,1.99,Yes,6,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0569,22,Male,BSECE,2nd Year,4.1,94.76,12.91,No,4,Dropout_Risk,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0570,23,Female,BSCE,4th Year,1.54,78.35,5.19,No,4,Good,Restrooms are usually clean and have the necessary supplies.
+S0571,20,Male,BSECE,3rd Year,1.41,67.49,9.48,Yes,6,Dropout_Risk,The guidance office is easy to approach and very helpful.
+S0572,24,Male,BSME,3rd Year,2.42,61.14,4.11,Yes,10,Probation,The campus grounds are clean and well-maintained.
+S0573,23,Male,BSCE,2nd Year,4.28,51.64,4.82,Yes,7,Good,The guidance office is easy to approach and very helpful.
+S0574,25,Male,BSME,3rd Year,2.35,54.5,12.86,No,7,Probation,The academic environment is competitive but supportive.
+S0575,23,Female,BSCS,2nd Year,3.08,87.25,12.2,Yes,1,Good,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0576,23,Female,BSCS,2nd Year,3.08,87.25,12.2,Yes,1,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0577,25,Female,BSECE,3rd Year,2.82,84.72,13.66,No,7,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0578,18,Male,BSIT,1st Year,2.78,60.3,2.55,Yes,6,Probation,The academic environment is competitive but supportive.
+S0579,18,Male,BSME,3rd Year,3.34,87.99,0.78,Yes,5,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0580,20,Male,BSME,1st Year,4.01,54.26,17.26,No,3,Good,Restrooms are usually clean and have the necessary supplies.
+S0581,22,Female,BSCS,3rd Year,1.43,55.41,17.08,No,0,Probation,The campus grounds are clean and well-maintained.
+S0582,25,Female,BSIT,1st Year,4.96,73.27,15.51,No,4,Probation,Our school celebrates student diversity through events and awareness weeks.
+S0583,18,Male,BSIT,1st Year,4.56,74.87,12.35,No,1,Probation,The campus grounds are clean and well-maintained.
+S0584,18,Female,BSCS,3rd Year,4.17,80.94,12.28,No,1,Probation,Restrooms are usually clean and have the necessary supplies.
+S0585,23,Female,BSME,4th Year,3.95,62.52,13.86,Yes,10,Dropout_Risk,Our computer labs are equipped with the latest software we need for our program.
+S0586,20,Male,BSCS,4th Year,3.5,57.82,0.88,No,10,Good,The campus grounds are clean and well-maintained.
+S0587,24,Male,BSME,3rd Year,2.42,61.14,4.11,Yes,10,Probation,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0588,20,Male,BSECE,2nd Year,1.81,80.52,1.99,No,7,Probation,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0589,25,Male,BSME,1st Year,3.78,90.9,13.3,Yes,8,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0590,23,Male,BSCE,1st Year,3.71,72.65,9.93,No,0,Good,Our computer labs are equipped with the latest software we need for our program.
+S0591,19,Female,BSME,1st Year,4.13,92.32,11.02,No,8,Good,Our school celebrates student diversity through events and awareness weeks.
+S0592,25,Female,BSCS,3rd Year,4.56,65.08,3.51,Yes,4,Probation,The guidance office is easy to approach and very helpful.
+S0593,22,Male,BSME,1st Year,1.01,51.95,1.68,Yes,9,Good,"The classrooms are bright, clean, and conducive to learning."
+S0594,19,Female,BSCS,3rd Year,1.2,92.74,0.99,Yes,0,Dropout_Risk,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0595,23,Female,BSCS,1st Year,3.88,73.75,2.89,Yes,4,Good,"The classrooms are bright, clean, and conducive to learning."
+S0596,23,Female,BSME,3rd Year,1.99,88.93,8.18,Yes,9,Good,Our computer labs are equipped with the latest software we need for our program.
+S0597,20,Female,BSME,3rd Year,3.83,97.11,11.39,Yes,8,Good,"The classrooms are bright, clean, and conducive to learning."
+S0598,22,Male,BSCS,2nd Year,1.72,74.35,5.29,No,3,Dropout_Risk,The campus grounds are clean and well-maintained.
+S0599,20,Female,BSME,2nd Year,4.9,57.86,6.01,No,1,Dropout_Risk,The guidance office is easy to approach and very helpful.
+S0600,20,Male,BSECE,2nd Year,1.81,80.52,1.99,No,7,Probation,The academic environment is competitive but supportive.
+S0601,24,Female,BSECE,4th Year,1.18,51,18.04,No,1,Dropout_Risk,Restrooms are usually clean and have the necessary supplies.
+S0602,20,Male,BSIT,2nd Year,3.96,52.69,17.79,No,10,Good,The guidance office is easy to approach and very helpful.
+S0603,23,Female,BSECE,4th Year,4.29,56.83,0.71,No,4,Good,"The classrooms are bright, clean, and conducive to learning."
+S0604,23,Female,BSCS,2nd Year,3.08,87.25,12.2,Yes,1,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0605,25,Male,BSIT,3rd Year,2,92.5,2.83,No,2,Probation,Restrooms are usually clean and have the necessary supplies.
+S0606,18,Female,BSECE,3rd Year,2.36,57.32,6.78,No,0,Dropout_Risk,Our school celebrates student diversity through events and awareness weeks.
+S0607,23,Female,BSCE,2nd Year,2.18,86.2,0.63,No,5,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0608,24,Male,BSCE,2nd Year,1.89,65.34,18.38,Yes,10,Good,The academic environment is competitive but supportive.
+S0609,24,Female,BSCS,3rd Year,3.1,87.96,15.05,Yes,3,Good,Restrooms are usually clean and have the necessary supplies.
+S0610,19,Female,BSME,3rd Year,3.65,85.99,5.5,Yes,6,Good,"The classrooms are bright, clean, and conducive to learning."
+S0611,18,Male,BSIT,1st Year,2.78,60.3,2.55,Yes,6,Probation,The academic environment is competitive but supportive.
+S0612,19,Female,BSCS,3rd Year,1.2,92.74,0.99,Yes,0,Dropout_Risk,Restrooms are usually clean and have the necessary supplies.
+S0613,21,Female,BSME,2nd Year,1.59,79.77,12.46,No,3,Good,The campus grounds are clean and well-maintained.
+S0614,22,Male,BSCS,1st Year,2.52,51.3,7.41,No,10,Good,The academic environment is competitive but supportive.
+S0615,24,Female,BSCS,2nd Year,2.74,84.48,9.66,Yes,3,Dropout_Risk,The guidance office is easy to approach and very helpful.
+S0616,23,Female,BSME,4th Year,4.01,62.5,9.89,No,1,Good,The academic environment is competitive but supportive.
+S0617,24,Female,BSIT,1st Year,3.93,59.69,13.15,Yes,0,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0618,18,Male,BSCS,2nd Year,3.64,68.1,11.18,No,2,Good,Our school celebrates student diversity through events and awareness weeks.
+S0619,23,Male,BSCS,3rd Year,1.39,94.29,1.29,No,1,Good,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0620,18,Male,BSCS,2nd Year,3.64,68.1,11.18,No,2,Good,Our school celebrates student diversity through events and awareness weeks.
+S0621,20,Female,BSME,2nd Year,4.9,57.86,6.01,No,1,Dropout_Risk,Security guards are friendly and respectful. I feel safe walking around campus.
+S0622,18,Male,BSECE,1st Year,3.63,56.8,9.7,No,8,Good,"The library is quiet and comfortable, with plenty of space to study."
+S0623,21,Male,BSECE,4th Year,4.16,72.82,11.06,Yes,0,Dropout_Risk,Security guards are friendly and respectful. I feel safe walking around campus.
+S0624,20,Female,BSME,2nd Year,4.9,57.86,6.01,No,1,Dropout_Risk,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0625,22,Male,BSCS,4th Year,1.76,53.31,15.44,No,10,Probation,"The library is quiet and comfortable, with plenty of space to study."
+S0626,23,Female,BSCE,1st Year,1.03,73.36,8.78,Yes,1,Dropout_Risk,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0627,25,Male,BSME,3rd Year,2.35,54.5,12.86,No,7,Probation,Our school celebrates student diversity through events and awareness weeks.
+S0628,22,Female,BSCS,3rd Year,3.76,72.57,19.37,Yes,5,Good,The campus grounds are clean and well-maintained.
+S0629,24,Female,BSME,1st Year,3.1,64.26,14.64,Yes,7,Probation,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0630,23,Female,BSME,4th Year,3.95,62.52,13.86,Yes,10,Dropout_Risk,The academic environment is competitive but supportive.
+S0631,22,Female,BSCS,3rd Year,1.43,55.41,17.08,No,0,Probation,The campus grounds are clean and well-maintained.
+S0632,22,Female,BSCS,3rd Year,3.76,72.57,19.37,Yes,5,Good,Restrooms are usually clean and have the necessary supplies.
+S0633,23,Female,BSIT,2nd Year,1.53,99.56,14.86,Yes,0,Dropout_Risk,The academic environment is competitive but supportive.
+S0634,21,Female,BSIT,4th Year,2.12,84.02,17.07,No,9,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0635,24,Female,BSIT,1st Year,3.93,59.69,13.15,Yes,0,Dropout_Risk,The academic environment is competitive but supportive.
+S0636,18,Male,BSCS,2nd Year,3.84,91.26,19.78,No,6,Dropout_Risk,Security guards are friendly and respectful. I feel safe walking around campus.
+S0637,24,Male,BSIT,1st Year,1.1,83.66,19.6,No,7,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0638,23,Male,BSCE,2nd Year,4.28,51.64,4.82,Yes,7,Good,Our computer labs are equipped with the latest software we need for our program.
+S0639,22,Male,BSCS,2nd Year,1.72,74.35,5.29,No,3,Dropout_Risk,The campus grounds are clean and well-maintained.
+S0640,18,Female,BSIT,4th Year,4.06,72.85,0.73,Yes,3,Probation,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0641,20,Male,BSCE,4th Year,1.2,67.38,13.7,Yes,9,Good,The guidance office is easy to approach and very helpful.
+S0642,24,Male,BSIT,1st Year,3.82,64.19,18.25,Yes,4,Dropout_Risk,Our computer labs are equipped with the latest software we need for our program.
+S0643,25,Female,BSME,4th Year,1.82,96.44,13.32,Yes,10,Good,"The library is quiet and comfortable, with plenty of space to study."
+S0644,18,Female,BSME,1st Year,3.18,78.68,14.98,No,10,Dropout_Risk,"The library is quiet and comfortable, with plenty of space to study."
+S0645,24,Male,BSCE,2nd Year,1.89,65.34,18.38,Yes,10,Good,The campus grounds are clean and well-maintained.
+S0646,23,Male,BSCE,1st Year,3.71,72.65,9.93,No,0,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0647,25,Male,BSECE,2nd Year,4.65,61.98,16.6,No,7,Good,The guidance office is easy to approach and very helpful.
+S0648,19,Female,BSCS,1st Year,3.16,71,12.21,Yes,3,Good,The campus grounds are clean and well-maintained.
+S0649,22,Female,BSCS,3rd Year,3.76,72.57,19.37,Yes,5,Good,Restrooms are usually clean and have the necessary supplies.
+S0650,18,Female,BSME,1st Year,3.3,79.7,17.41,Yes,8,Good,Our school celebrates student diversity through events and awareness weeks.
+S0651,21,Female,BSCE,1st Year,2.5,84.62,13.52,No,3,Probation,The academic environment is competitive but supportive.
+S0652,25,Female,BSCE,4th Year,1.25,81.12,9.85,Yes,6,Probation,The guidance office is easy to approach and very helpful.
+S0653,21,Male,BSME,4th Year,3.61,57.28,9.89,Yes,4,Good,Our school celebrates student diversity through events and awareness weeks.
+S0654,22,Male,BSME,1st Year,1.01,51.95,1.68,Yes,9,Good,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0655,18,Male,BSECE,1st Year,3.63,56.8,9.7,No,8,Good,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0656,23,Female,BSIT,2nd Year,1.53,99.56,14.86,Yes,0,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0657,25,Female,BSIT,1st Year,1.42,50.15,17.86,No,3,Probation,The academic environment is competitive but supportive.
+S0658,21,Female,BSCS,3rd Year,4.89,71.46,7.72,No,1,Good,The guidance office is easy to approach and very helpful.
+S0659,21,Female,BSCE,1st Year,2.5,84.62,13.52,No,3,Probation,"The classrooms are bright, clean, and conducive to learning."
+S0660,24,Female,BSECE,2nd Year,1.44,99.4,18.92,No,1,Probation,The guidance office is easy to approach and very helpful.
+S0661,19,Male,BSME,3rd Year,4.28,59.42,7.54,No,9,Dropout_Risk,Restrooms are usually clean and have the necessary supplies.
+S0662,21,Male,BSIT,4th Year,2.54,94.96,11.47,Yes,3,Dropout_Risk,"The library is quiet and comfortable, with plenty of space to study."
+S0663,25,Female,BSCS,3rd Year,4.56,65.08,3.51,Yes,4,Probation,The guidance office is easy to approach and very helpful.
+S0664,20,Female,BSCE,1st Year,4.7,70.97,17.29,No,10,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0665,25,Male,BSME,3rd Year,2.35,54.5,12.86,No,7,Probation,"The classrooms are bright, clean, and conducive to learning."
+S0666,22,Male,BSCE,1st Year,2.91,94.45,5.91,No,1,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0667,22,Male,BSIT,4th Year,4.44,64.4,2.84,Yes,10,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0668,24,Female,BSECE,4th Year,1.18,51,18.04,No,1,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0669,19,Female,BSME,1st Year,4.13,92.32,11.02,No,8,Good,"The library is quiet and comfortable, with plenty of space to study."
+S0670,20,Female,BSME,3rd Year,3.83,97.11,11.39,Yes,8,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0671,22,Male,BSCS,1st Year,1.65,73.41,19.33,Yes,10,Good,The campus grounds are clean and well-maintained.
+S0672,19,Male,BSIT,2nd Year,4.42,96.58,7.82,Yes,0,Dropout_Risk,Restrooms are usually clean and have the necessary supplies.
+S0673,25,Male,BSECE,2nd Year,4.65,61.98,16.6,No,7,Good,The guidance office is easy to approach and very helpful.
+S0674,18,Female,BSCS,3rd Year,4.17,80.94,12.28,No,1,Probation,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0675,23,Female,BSECE,4th Year,4.29,56.83,0.71,No,4,Good,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0676,22,Male,BSECE,2nd Year,4.1,94.76,12.91,No,4,Dropout_Risk,Our school celebrates student diversity through events and awareness weeks.
+S0677,20,Male,BSCE,4th Year,2.09,70.29,3.34,No,9,Probation,"The classrooms are bright, clean, and conducive to learning."
+S0678,24,Female,BSCE,2nd Year,4.48,79.93,18.73,Yes,3,Good,The guidance office is easy to approach and very helpful.
+S0679,18,Male,BSCE,2nd Year,1.58,73.95,7.12,Yes,5,Probation,The academic environment is competitive but supportive.
+S0680,25,Male,BSME,1st Year,3.78,90.9,13.3,Yes,8,Dropout_Risk,The academic environment is competitive but supportive.
+S0681,20,Female,BSECE,1st Year,1.23,69.45,0.11,No,10,Dropout_Risk,The academic environment is competitive but supportive.
+S0682,24,Female,BSME,1st Year,3.1,64.26,14.64,Yes,7,Probation,The campus grounds are clean and well-maintained.
+S0683,20,Female,BSIT,3rd Year,1.97,94.6,4.76,Yes,3,Dropout_Risk,The campus grounds are clean and well-maintained.
+S0684,18,Female,BSCS,4th Year,2.09,52.49,6.86,Yes,2,Dropout_Risk,Restrooms are usually clean and have the necessary supplies.
+S0685,24,Male,BSME,3rd Year,2.98,55.63,10.96,No,8,Probation,The guidance office is easy to approach and very helpful.
+S0686,20,Male,BSIT,2nd Year,3.96,52.69,17.79,No,10,Good,The guidance office is easy to approach and very helpful.
+S0687,25,Female,BSIT,4th Year,3.54,60.22,18.23,No,6,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0688,20,Female,BSME,3rd Year,3.83,97.11,11.39,Yes,8,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0689,19,Male,BSCE,1st Year,1.7,92.01,19.74,No,10,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0690,25,Male,BSECE,4th Year,1.26,92.12,6.01,Yes,0,Probation,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0691,20,Male,BSME,1st Year,4.32,75.19,6.25,No,2,Probation,The academic environment is competitive but supportive.
+S0692,24,Male,BSCE,3rd Year,2.38,60.35,1.17,No,7,Good,Our computer labs are equipped with the latest software we need for our program.
+S0693,25,Male,BSME,3rd Year,2.35,54.5,12.86,No,7,Probation,The guidance office is easy to approach and very helpful.
+S0694,21,Female,BSECE,1st Year,3.15,82.41,10.87,No,1,Good,Restrooms are usually clean and have the necessary supplies.
+S0695,22,Male,BSCE,1st Year,2.91,94.45,5.91,No,1,Dropout_Risk,"The library is quiet and comfortable, with plenty of space to study."
+S0696,24,Male,BSCE,2nd Year,3.89,61.01,11.85,Yes,10,Dropout_Risk,"The library is quiet and comfortable, with plenty of space to study."
+S0697,20,Male,BSCS,2nd Year,4.86,64.93,18.9,Yes,4,Probation,Security guards are friendly and respectful. I feel safe walking around campus.
+S0698,23,Male,BSCE,2nd Year,4.28,51.64,4.82,Yes,7,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0699,21,Male,BSIT,4th Year,2.54,94.96,11.47,Yes,3,Dropout_Risk,Security guards are friendly and respectful. I feel safe walking around campus.
+S0700,25,Male,BSECE,2nd Year,4.65,61.98,16.6,No,7,Good,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0701,25,Female,BSIT,1st Year,4.96,73.27,15.51,No,4,Probation,The guidance office is easy to approach and very helpful.
+S0702,23,Female,BSECE,3rd Year,3.83,58.61,3.31,No,6,Probation,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0703,25,Female,BSME,4th Year,1.82,96.44,13.32,Yes,10,Good,Our computer labs are equipped with the latest software we need for our program.
+S0704,23,Female,BSCE,1st Year,1.07,73.85,16.33,Yes,10,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0705,24,Male,BSIT,1st Year,1.1,83.66,19.6,No,7,Good,Our school celebrates student diversity through events and awareness weeks.
+S0706,22,Male,BSCS,4th Year,1.76,53.31,15.44,No,10,Probation,The academic environment is competitive but supportive.
+S0707,24,Male,BSIT,1st Year,3.47,74.84,12.39,Yes,1,Good,The campus grounds are clean and well-maintained.
+S0708,25,Male,BSECE,1st Year,2.25,83.49,16.99,Yes,2,Probation,The guidance office is easy to approach and very helpful.
+S0709,22,Male,BSECE,2nd Year,1.55,66.11,13.93,Yes,7,Probation,The campus grounds are clean and well-maintained.
+S0710,25,Male,BSCS,2nd Year,3.64,81.17,11.01,Yes,10,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0711,22,Female,BSCS,3rd Year,1.43,55.41,17.08,No,0,Probation,Our school celebrates student diversity through events and awareness weeks.
+S0712,20,Male,BSCE,4th Year,4.99,92.01,0.87,No,0,Probation,"The library is quiet and comfortable, with plenty of space to study."
+S0713,21,Male,BSME,3rd Year,3.38,74.36,8.09,No,9,Dropout_Risk,Our computer labs are equipped with the latest software we need for our program.
+S0714,23,Male,BSCE,1st Year,4.33,78.51,1.51,Yes,4,Good,Restrooms are usually clean and have the necessary supplies.
+S0715,24,Female,BSCE,2nd Year,3.86,53.84,11.66,No,0,Dropout_Risk,Restrooms are usually clean and have the necessary supplies.
+S0716,20,Male,BSCE,4th Year,1,56.17,13.97,No,5,Dropout_Risk,The campus grounds are clean and well-maintained.
+S0717,18,Female,BSCS,3rd Year,4.35,75.2,18.07,No,10,Good,The academic environment is competitive but supportive.
+S0718,18,Female,BSCE,3rd Year,2.7,54.06,8.95,No,3,Probation,The guidance office is easy to approach and very helpful.
+S0719,21,Female,BSECE,4th Year,2.8,60.14,14.69,No,8,Probation,The guidance office is easy to approach and very helpful.
+S0720,25,Female,BSCE,1st Year,3.15,62.45,10.52,Yes,3,Good,The guidance office is easy to approach and very helpful.
+S0721,20,Male,BSCS,2nd Year,4.86,64.93,18.9,Yes,4,Probation,Security guards are friendly and respectful. I feel safe walking around campus.
+S0722,25,Male,BSCS,1st Year,1.1,76.92,12.23,No,4,Good,The academic environment is competitive but supportive.
+S0723,18,Female,BSIT,4th Year,1.07,98.87,12.9,Yes,1,Good,"The library is quiet and comfortable, with plenty of space to study."
+S0724,22,Male,BSIT,4th Year,4.44,64.4,2.84,Yes,10,Dropout_Risk,Our computer labs are equipped with the latest software we need for our program.
+S0725,24,Female,BSCE,2nd Year,4.48,79.93,18.73,Yes,3,Good,The guidance office is easy to approach and very helpful.
+S0726,21,Female,BSECE,3rd Year,1.66,92.64,8.96,Yes,1,Dropout_Risk,The campus grounds are clean and well-maintained.
+S0727,22,Female,BSCS,3rd Year,3.76,72.57,19.37,Yes,5,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0728,21,Female,BSECE,1st Year,3.15,82.41,10.87,No,1,Good,"The library is quiet and comfortable, with plenty of space to study."
+S0729,20,Female,BSECE,3rd Year,1.64,59.05,8.87,No,7,Good,The academic environment is competitive but supportive.
+S0730,19,Male,BSME,3rd Year,1.16,98.1,11.23,Yes,5,Good,The guidance office is easy to approach and very helpful.
+S0731,21,Female,BSCS,3rd Year,3.07,72.8,5.64,Yes,4,Dropout_Risk,"The library is quiet and comfortable, with plenty of space to study."
+S0732,22,Female,BSCS,3rd Year,3.76,72.57,19.37,Yes,5,Good,Restrooms are usually clean and have the necessary supplies.
+S0733,23,Female,BSIT,4th Year,2.79,84.92,4.53,Yes,3,Probation,The academic environment is competitive but supportive.
+S0734,25,Male,BSIT,3rd Year,2,92.5,2.83,No,2,Probation,"The classrooms are bright, clean, and conducive to learning."
+S0735,25,Male,BSCS,1st Year,1.1,76.92,12.23,No,4,Good,"The library is quiet and comfortable, with plenty of space to study."
+S0736,22,Female,BSME,4th Year,3.49,89.38,1.81,Yes,4,Probation,Restrooms are usually clean and have the necessary supplies.
+S0737,22,Male,BSECE,2nd Year,1.55,66.11,13.93,Yes,7,Probation,"The classrooms are bright, clean, and conducive to learning."
+S0738,19,Female,BSME,1st Year,1.4,88.11,19.33,No,9,Good,Our school celebrates student diversity through events and awareness weeks.
+S0739,25,Male,BSIT,3rd Year,2,92.5,2.83,No,2,Probation,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0740,20,Male,BSCE,4th Year,2.09,70.29,3.34,No,9,Probation,"The classrooms are bright, clean, and conducive to learning."
+S0741,18,Male,BSCS,4th Year,1.3,89.9,17.47,Yes,5,Probation,The academic environment is competitive but supportive.
+S0742,20,Male,BSCE,4th Year,2.09,70.29,3.34,No,9,Probation,Our school celebrates student diversity through events and awareness weeks.
+S0743,20,Male,BSIT,4th Year,1.9,86.8,3.69,No,10,Dropout_Risk,Our school celebrates student diversity through events and awareness weeks.
+S0744,24,Female,BSCE,2nd Year,3.41,90.63,8.19,No,7,Dropout_Risk,Security guards are friendly and respectful. I feel safe walking around campus.
+S0745,25,Male,BSCE,1st Year,1.77,56.02,19.97,No,0,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0746,21,Male,BSME,4th Year,3.61,57.28,9.89,Yes,4,Good,Our computer labs are equipped with the latest software we need for our program.
+S0747,25,Female,BSCE,4th Year,1.25,81.12,9.85,Yes,6,Probation,The academic environment is competitive but supportive.
+S0748,25,Female,BSIT,4th Year,3.54,60.22,18.23,No,6,Probation,"The classrooms are bright, clean, and conducive to learning."
+S0749,21,Female,BSECE,3rd Year,1.66,92.64,8.96,Yes,1,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0750,24,Female,BSIT,4th Year,2.46,69.01,3.86,Yes,5,Dropout_Risk,"The library is quiet and comfortable, with plenty of space to study."
+S0751,22,Male,BSCE,1st Year,2.91,94.45,5.91,No,1,Dropout_Risk,Restrooms are usually clean and have the necessary supplies.
+S0752,20,Male,BSCS,2nd Year,4.86,64.93,18.9,Yes,4,Probation,The campus grounds are clean and well-maintained.
+S0753,19,Female,BSCS,3rd Year,1.2,92.74,0.99,Yes,0,Dropout_Risk,The campus grounds are clean and well-maintained.
+S0754,20,Male,BSCE,4th Year,4.99,92.01,0.87,No,0,Probation,The academic environment is competitive but supportive.
+S0755,24,Female,BSECE,4th Year,1,84.59,9.44,Yes,3,Good,The campus grounds are clean and well-maintained.
+S0756,23,Female,BSCS,2nd Year,3.47,96.13,4.9,Yes,2,Probation,The guidance office is easy to approach and very helpful.
+S0757,24,Male,BSIT,2nd Year,3.89,86.8,12.3,Yes,9,Good,"The library is quiet and comfortable, with plenty of space to study."
+S0758,20,Male,BSIT,2nd Year,3.96,52.69,17.79,No,10,Good,"The classrooms are bright, clean, and conducive to learning."
+S0759,23,Female,BSME,4th Year,2.29,65.13,16.97,No,9,Dropout_Risk,Our computer labs are equipped with the latest software we need for our program.
+S0760,18,Male,BSCS,2nd Year,3.84,91.26,19.78,No,6,Dropout_Risk,Our school celebrates student diversity through events and awareness weeks.
+S0761,19,Female,BSME,3rd Year,3.65,85.99,5.5,Yes,6,Good,The academic environment is competitive but supportive.
+S0762,25,Female,BSCE,1st Year,3.15,62.45,10.52,Yes,3,Good,The campus grounds are clean and well-maintained.
+S0763,25,Male,BSECE,4th Year,1.26,92.12,6.01,Yes,0,Probation,"The classrooms are bright, clean, and conducive to learning."
+S0764,18,Female,BSECE,3rd Year,2.36,57.32,6.78,No,0,Dropout_Risk,The campus grounds are clean and well-maintained.
+S0765,24,Female,BSCE,3rd Year,1.13,94.11,19.92,Yes,9,Good,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0766,22,Female,BSCS,3rd Year,3.76,72.57,19.37,Yes,5,Good,Restrooms are usually clean and have the necessary supplies.
+S0767,21,Female,BSCS,2nd Year,3.73,90.37,16.49,No,10,Good,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0768,24,Male,BSCE,4th Year,2.17,96.86,3.19,Yes,4,Probation,Our school celebrates student diversity through events and awareness weeks.
+S0769,25,Male,BSCS,2nd Year,2.25,81.7,7.55,Yes,6,Good,Restrooms are usually clean and have the necessary supplies.
+S0770,24,Male,BSIT,1st Year,3.82,64.19,18.25,Yes,4,Dropout_Risk,The academic environment is competitive but supportive.
+S0771,21,Female,BSCE,2nd Year,4.49,64.16,9.7,Yes,7,Probation,"The classrooms are bright, clean, and conducive to learning."
+S0772,22,Male,BSME,1st Year,2.24,65.67,12.49,No,5,Good,"The library is quiet and comfortable, with plenty of space to study."
+S0773,23,Female,BSME,4th Year,4.01,62.5,9.89,No,1,Good,Our school celebrates student diversity through events and awareness weeks.
+S0774,18,Male,BSECE,1st Year,3.63,56.8,9.7,No,8,Good,The campus grounds are clean and well-maintained.
+S0775,24,Male,BSCE,3rd Year,2.2,62.49,10.18,No,10,Good,The guidance office is easy to approach and very helpful.
+S0776,18,Female,BSCS,4th Year,2.09,52.49,6.86,Yes,2,Dropout_Risk,The academic environment is competitive but supportive.
+S0777,22,Male,BSECE,3rd Year,2.99,74.56,15.24,No,4,Probation,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0778,18,Male,BSCE,2nd Year,1.58,73.95,7.12,Yes,5,Probation,The academic environment is competitive but supportive.
+S0779,24,Female,BSCS,4th Year,4.96,85.69,2.69,Yes,9,Good,Restrooms are usually clean and have the necessary supplies.
+S0780,18,Female,BSCS,3rd Year,4.17,80.94,12.28,No,1,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0781,24,Female,BSCE,2nd Year,4.48,79.93,18.73,Yes,3,Good,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0782,24,Female,BSIT,1st Year,2.34,63.56,15.34,Yes,2,Good,The guidance office is easy to approach and very helpful.
+S0783,25,Male,BSECE,1st Year,2.25,83.49,16.99,Yes,2,Probation,The campus grounds are clean and well-maintained.
+S0784,25,Male,BSIT,3rd Year,4.83,86.07,11.54,Yes,0,Probation,The campus grounds are clean and well-maintained.
+S0785,18,Female,BSCE,3rd Year,2.7,54.06,8.95,No,3,Probation,Restrooms are usually clean and have the necessary supplies.
+S0786,25,Male,BSIT,3rd Year,2,92.5,2.83,No,2,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0787,20,Female,BSCE,1st Year,4.7,70.97,17.29,No,10,Probation,"The library is quiet and comfortable, with plenty of space to study."
+S0788,25,Female,BSCE,4th Year,1.25,81.12,9.85,Yes,6,Probation,The campus grounds are clean and well-maintained.
+S0789,19,Male,BSCE,1st Year,1.7,92.01,19.74,No,10,Good,Our school celebrates student diversity through events and awareness weeks.
+S0790,23,Female,BSCS,1st Year,3.88,73.75,2.89,Yes,4,Good,The campus grounds are clean and well-maintained.
+S0791,25,Male,BSME,1st Year,3.78,90.9,13.3,Yes,8,Dropout_Risk,"The library is quiet and comfortable, with plenty of space to study."
+S0792,24,Female,BSCS,4th Year,4.96,85.69,2.69,Yes,9,Good,The academic environment is competitive but supportive.
+S0793,25,Male,BSECE,2nd Year,4.17,91.92,8.76,No,9,Good,"The classrooms are bright, clean, and conducive to learning."
+S0794,18,Male,BSCE,2nd Year,3.55,84.15,7.82,No,10,Good,Restrooms are usually clean and have the necessary supplies.
+S0795,20,Female,BSECE,1st Year,1.23,69.45,0.11,No,10,Dropout_Risk,Security guards are friendly and respectful. I feel safe walking around campus.
+S0796,22,Female,BSME,4th Year,3.49,89.38,1.81,Yes,4,Probation,The academic environment is competitive but supportive.
+S0797,24,Male,BSCE,2nd Year,3.89,61.01,11.85,Yes,10,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0798,20,Male,BSCE,4th Year,1.2,67.38,13.7,Yes,9,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0799,23,Male,BSCE,1st Year,4.33,78.51,1.51,Yes,4,Good,The academic environment is competitive but supportive.
+S0800,18,Female,BSCE,4th Year,2.13,80.94,6.76,No,1,Probation,Our school celebrates student diversity through events and awareness weeks.
+S0801,23,Female,BSCS,1st Year,3.88,73.75,2.89,Yes,4,Good,The campus grounds are clean and well-maintained.
+S0802,22,Female,BSCS,3rd Year,3.76,72.57,19.37,Yes,5,Good,Restrooms are usually clean and have the necessary supplies.
+S0803,25,Male,BSIT,3rd Year,2,92.5,2.83,No,2,Probation,"The classrooms are bright, clean, and conducive to learning."
+S0804,22,Male,BSCE,1st Year,2.91,94.45,5.91,No,1,Dropout_Risk,"The library is quiet and comfortable, with plenty of space to study."
+S0805,22,Female,BSME,4th Year,3.49,89.38,1.81,Yes,4,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0806,24,Female,BSIT,1st Year,2.34,63.56,15.34,Yes,2,Good,The campus grounds are clean and well-maintained.
+S0807,18,Female,BSCS,1st Year,4.75,78.22,12.91,No,1,Probation,The academic environment is competitive but supportive.
+S0808,20,Male,BSCE,4th Year,1,56.17,13.97,No,5,Dropout_Risk,The campus grounds are clean and well-maintained.
+S0809,23,Male,BSCE,1st Year,4.33,78.51,1.51,Yes,4,Good,Our school celebrates student diversity through events and awareness weeks.
+S0810,20,Male,BSCS,4th Year,4.19,65.82,14.54,Yes,5,Dropout_Risk,The campus grounds are clean and well-maintained.
+S0811,21,Female,BSIT,2nd Year,1.64,93.55,13.5,No,1,Good,Our school celebrates student diversity through events and awareness weeks.
+S0812,18,Female,BSCS,3rd Year,4.17,80.94,12.28,No,1,Probation,Security guards are friendly and respectful. I feel safe walking around campus.
+S0813,25,Male,BSME,1st Year,3.78,90.9,13.3,Yes,8,Dropout_Risk,The guidance office is easy to approach and very helpful.
+S0814,22,Male,BSCE,1st Year,3.42,95.17,9.06,Yes,5,Probation,The academic environment is competitive but supportive.
+S0815,21,Female,BSME,1st Year,3.62,66.55,19.05,Yes,0,Probation,Our school celebrates student diversity through events and awareness weeks.
+S0816,18,Female,BSCS,3rd Year,4.17,80.94,12.28,No,1,Probation,"The library is quiet and comfortable, with plenty of space to study."
+S0817,24,Female,BSCE,2nd Year,4.48,79.93,18.73,Yes,3,Good,Our computer labs are equipped with the latest software we need for our program.
+S0818,23,Male,BSCS,3rd Year,1.39,94.29,1.29,No,1,Good,The academic environment is competitive but supportive.
+S0819,19,Female,BSME,3rd Year,3.65,85.99,5.5,Yes,6,Good,Restrooms are usually clean and have the necessary supplies.
+S0820,18,Female,BSIT,4th Year,4.06,72.85,0.73,Yes,3,Probation,"The classrooms are bright, clean, and conducive to learning."
+S0821,18,Male,BSCS,2nd Year,3.84,91.26,19.78,No,6,Dropout_Risk,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0822,25,Male,BSECE,3rd Year,1.27,54.71,4.85,Yes,10,Dropout_Risk,The campus grounds are clean and well-maintained.
+S0823,25,Male,BSECE,2nd Year,4.65,61.98,16.6,No,7,Good,"The classrooms are bright, clean, and conducive to learning."
+S0824,22,Male,BSECE,3rd Year,2.99,74.56,15.24,No,4,Probation,The academic environment is competitive but supportive.
+S0825,23,Female,BSCS,2nd Year,3.47,96.13,4.9,Yes,2,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0826,23,Male,BSCE,2nd Year,4.28,51.64,4.82,Yes,7,Good,Our school celebrates student diversity through events and awareness weeks.
+S0827,23,Female,BSME,3rd Year,1.99,88.93,8.18,Yes,9,Good,The campus grounds are clean and well-maintained.
+S0828,24,Female,BSME,1st Year,3.1,64.26,14.64,Yes,7,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0829,18,Female,BSCS,3rd Year,4.35,75.2,18.07,No,10,Good,The guidance office is easy to approach and very helpful.
+S0830,20,Male,BSIT,4th Year,1.9,86.8,3.69,No,10,Dropout_Risk,Restrooms are usually clean and have the necessary supplies.
+S0831,21,Male,BSCS,1st Year,2.12,91.62,7.68,Yes,6,Probation,Restrooms are usually clean and have the necessary supplies.
+S0832,18,Male,BSME,3rd Year,3.34,87.99,0.78,Yes,5,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0833,24,Male,BSIT,1st Year,3.82,64.19,18.25,Yes,4,Dropout_Risk,Security guards are friendly and respectful. I feel safe walking around campus.
+S0834,24,Female,BSECE,4th Year,1.99,84.83,8.36,Yes,8,Good,Restrooms are usually clean and have the necessary supplies.
+S0835,22,Male,BSECE,3rd Year,2.99,74.56,15.24,No,4,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0836,18,Male,BSIT,1st Year,4.56,74.87,12.35,No,1,Probation,The campus grounds are clean and well-maintained.
+S0837,24,Female,BSECE,4th Year,1.18,51,18.04,No,1,Dropout_Risk,Restrooms are usually clean and have the necessary supplies.
+S0838,19,Female,BSCS,1st Year,3.16,71,12.21,Yes,3,Good,Our school celebrates student diversity through events and awareness weeks.
+S0839,22,Female,BSCE,1st Year,4.05,52.3,13.3,No,0,Dropout_Risk,The guidance office is easy to approach and very helpful.
+S0840,23,Female,BSCS,2nd Year,3.08,87.25,12.2,Yes,1,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0841,25,Female,BSCE,4th Year,1.25,81.12,9.85,Yes,6,Probation,The campus grounds are clean and well-maintained.
+S0842,24,Female,BSIT,4th Year,2.84,60.74,16.46,Yes,8,Good,Our school celebrates student diversity through events and awareness weeks.
+S0843,25,Female,BSCE,1st Year,3.15,62.45,10.52,Yes,3,Good,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0844,18,Male,BSECE,1st Year,3.15,60.77,12.6,No,4,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0845,22,Male,BSCE,1st Year,2.64,57.95,13.06,No,2,Dropout_Risk,Our computer labs are equipped with the latest software we need for our program.
+S0846,25,Male,BSECE,4th Year,1.26,92.12,6.01,Yes,0,Probation,The academic environment is competitive but supportive.
+S0847,21,Male,BSME,4th Year,3.61,57.28,9.89,Yes,4,Good,The campus grounds are clean and well-maintained.
+S0848,19,Female,BSCS,3rd Year,1.2,92.74,0.99,Yes,0,Dropout_Risk,Restrooms are usually clean and have the necessary supplies.
+S0849,19,Male,BSIT,2nd Year,4.42,96.58,7.82,Yes,0,Dropout_Risk,Restrooms are usually clean and have the necessary supplies.
+S0850,20,Male,BSIT,4th Year,1.9,86.8,3.69,No,10,Dropout_Risk,Our computer labs are equipped with the latest software we need for our program.
+S0851,25,Male,BSME,3rd Year,2.35,54.5,12.86,No,7,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0852,20,Female,BSECE,3rd Year,1.64,59.05,8.87,No,7,Good,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0853,21,Female,BSME,4th Year,2.57,77.63,0.17,Yes,10,Probation,The academic environment is competitive but supportive.
+S0854,23,Male,BSECE,4th Year,2.99,70.35,16.88,No,6,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0855,24,Female,BSME,2nd Year,4.13,66.24,12.11,Yes,3,Good,Restrooms are usually clean and have the necessary supplies.
+S0856,22,Male,BSCE,1st Year,3.42,95.17,9.06,Yes,5,Probation,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0857,24,Male,BSME,3rd Year,2.16,57.79,0.85,No,0,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0858,24,Male,BSME,3rd Year,2.42,61.14,4.11,Yes,10,Probation,Security guards are friendly and respectful. I feel safe walking around campus.
+S0859,18,Male,BSME,3rd Year,3.34,87.99,0.78,Yes,5,Probation,Our school celebrates student diversity through events and awareness weeks.
+S0860,20,Male,BSIT,2nd Year,3.96,52.69,17.79,No,10,Good,Our computer labs are equipped with the latest software we need for our program.
+S0861,21,Female,BSECE,3rd Year,1.66,92.64,8.96,Yes,1,Dropout_Risk,Our school celebrates student diversity through events and awareness weeks.
+S0862,21,Female,BSCE,1st Year,2.5,84.62,13.52,No,3,Probation,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0863,24,Female,BSCS,4th Year,4.96,85.69,2.69,Yes,9,Good,"The library is quiet and comfortable, with plenty of space to study."
+S0864,19,Female,BSCS,1st Year,3.16,71,12.21,Yes,3,Good,The academic environment is competitive but supportive.
+S0865,24,Female,BSME,1st Year,4.12,54.56,3.63,Yes,3,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0866,18,Male,BSCE,2nd Year,3.55,84.15,7.82,No,10,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0867,20,Male,BSME,1st Year,4.01,54.26,17.26,No,3,Good,Our computer labs are equipped with the latest software we need for our program.
+S0868,25,Male,BSME,4th Year,2.56,89.11,3.15,No,1,Good,Restrooms are usually clean and have the necessary supplies.
+S0869,18,Male,BSCS,2nd Year,3.64,68.1,11.18,No,2,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0870,19,Female,BSME,1st Year,4.13,92.32,11.02,No,8,Good,Our school celebrates student diversity through events and awareness weeks.
+S0871,19,Female,BSCS,1st Year,3.16,71,12.21,Yes,3,Good,Our computer labs are equipped with the latest software we need for our program.
+S0872,21,Female,BSCS,2nd Year,1.27,90.67,18.73,Yes,3,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0873,25,Female,BSECE,3rd Year,2.82,84.72,13.66,No,7,Dropout_Risk,The campus grounds are clean and well-maintained.
+S0874,19,Female,BSCS,3rd Year,1.2,92.74,0.99,Yes,0,Dropout_Risk,Security guards are friendly and respectful. I feel safe walking around campus.
+S0875,18,Female,BSIT,1st Year,2.76,88.56,9.14,No,9,Dropout_Risk,Security guards are friendly and respectful. I feel safe walking around campus.
+S0876,20,Male,BSME,1st Year,4.01,54.26,17.26,No,3,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0877,19,Female,BSME,1st Year,1.4,88.11,19.33,No,9,Good,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0878,25,Male,BSCS,2nd Year,2.25,81.7,7.55,Yes,6,Good,Our school celebrates student diversity through events and awareness weeks.
+S0879,24,Male,BSIT,1st Year,3.82,64.19,18.25,Yes,4,Dropout_Risk,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0880,21,Female,BSECE,1st Year,3.15,82.41,10.87,No,1,Good,Our school celebrates student diversity through events and awareness weeks.
+S0881,21,Female,BSECE,4th Year,2.8,60.14,14.69,No,8,Probation,The campus grounds are clean and well-maintained.
+S0882,23,Male,BSCE,1st Year,4.33,78.51,1.51,Yes,4,Good,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0883,22,Male,BSCS,4th Year,1.76,53.31,15.44,No,10,Probation,The guidance office is easy to approach and very helpful.
+S0884,21,Female,BSME,1st Year,3.62,66.55,19.05,Yes,0,Probation,Our school celebrates student diversity through events and awareness weeks.
+S0885,24,Male,BSIT,3rd Year,2.87,81,2.19,No,3,Good,Restrooms are usually clean and have the necessary supplies.
+S0886,24,Male,BSME,3rd Year,2.16,57.79,0.85,No,0,Dropout_Risk,The guidance office is easy to approach and very helpful.
+S0887,25,Male,BSME,4th Year,2.56,89.11,3.15,No,1,Good,The campus grounds are clean and well-maintained.
+S0888,20,Male,BSME,3rd Year,3.2,76.43,10.25,Yes,9,Probation,"The library is quiet and comfortable, with plenty of space to study."
+S0889,20,Female,BSIT,3rd Year,1.97,94.6,4.76,Yes,3,Dropout_Risk,Restrooms are usually clean and have the necessary supplies.
+S0890,24,Female,BSCS,2nd Year,2.74,84.48,9.66,Yes,3,Dropout_Risk,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0891,21,Female,BSECE,4th Year,2.8,60.14,14.69,No,8,Probation,The campus grounds are clean and well-maintained.
+S0892,23,Male,BSCE,1st Year,4.39,72.09,17.6,Yes,1,Probation,Restrooms are usually clean and have the necessary supplies.
+S0893,18,Female,BSECE,3rd Year,4.43,67.46,12.44,No,4,Dropout_Risk,Security guards are friendly and respectful. I feel safe walking around campus.
+S0894,21,Female,BSCS,2nd Year,1.27,90.67,18.73,Yes,3,Good,The guidance office is easy to approach and very helpful.
+S0895,20,Male,BSCE,4th Year,1,56.17,13.97,No,5,Dropout_Risk,The guidance office is easy to approach and very helpful.
+S0896,23,Female,BSME,3rd Year,1.48,76.88,8.53,Yes,1,Good,The academic environment is competitive but supportive.
+S0897,20,Male,BSIT,2nd Year,3.96,52.69,17.79,No,10,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0898,23,Female,BSIT,4th Year,2.79,84.92,4.53,Yes,3,Probation,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0899,24,Female,BSIT,1st Year,3.93,59.69,13.15,Yes,0,Dropout_Risk,The campus grounds are clean and well-maintained.
+S0900,18,Female,BSME,1st Year,3.18,78.68,14.98,No,10,Dropout_Risk,The guidance office is easy to approach and very helpful.
+S0901,25,Female,BSCE,4th Year,1.25,81.12,9.85,Yes,6,Probation,Restrooms are usually clean and have the necessary supplies.
+S0902,25,Male,BSECE,1st Year,2.46,52.82,15.72,Yes,3,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0903,23,Female,BSME,3rd Year,1.99,88.93,8.18,Yes,9,Good,The campus grounds are clean and well-maintained.
+S0904,25,Female,BSECE,3rd Year,4.49,91.13,8.48,Yes,4,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0905,23,Female,BSIT,2nd Year,1.53,99.56,14.86,Yes,0,Dropout_Risk,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0906,25,Male,BSME,4th Year,2.56,89.11,3.15,No,1,Good,"The classrooms are bright, clean, and conducive to learning."
+S0907,21,Female,BSIT,4th Year,2.12,84.02,17.07,No,9,Probation,Security guards are friendly and respectful. I feel safe walking around campus.
+S0908,25,Female,BSIT,1st Year,1.72,57.88,2.9,No,9,Dropout_Risk,Security guards are friendly and respectful. I feel safe walking around campus.
+S0909,23,Female,BSCS,2nd Year,3.47,96.13,4.9,Yes,2,Probation,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0910,18,Male,BSIT,1st Year,2.78,60.3,2.55,Yes,6,Probation,The academic environment is competitive but supportive.
+S0911,22,Male,BSCE,1st Year,3.42,95.17,9.06,Yes,5,Probation,"The library is quiet and comfortable, with plenty of space to study."
+S0912,25,Male,BSCS,1st Year,1.1,76.92,12.23,No,4,Good,The guidance office is easy to approach and very helpful.
+S0913,23,Male,BSCE,1st Year,4.33,78.51,1.51,Yes,4,Good,"The library is quiet and comfortable, with plenty of space to study."
+S0914,18,Male,BSME,2nd Year,3.8,98.7,11.75,No,10,Probation,Security guards are friendly and respectful. I feel safe walking around campus.
+S0915,21,Female,BSECE,1st Year,3.15,82.41,10.87,No,1,Good,"The library is quiet and comfortable, with plenty of space to study."
+S0916,22,Male,BSCE,1st Year,2.91,94.45,5.91,No,1,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0917,20,Female,BSECE,1st Year,1.23,69.45,0.11,No,10,Dropout_Risk,Our computer labs are equipped with the latest software we need for our program.
+S0918,21,Male,BSCS,1st Year,2.12,91.62,7.68,Yes,6,Probation,The academic environment is competitive but supportive.
+S0919,21,Female,BSIT,4th Year,2.12,84.02,17.07,No,9,Probation,The guidance office is easy to approach and very helpful.
+S0920,18,Male,BSME,3rd Year,3.34,87.99,0.78,Yes,5,Probation,The campus grounds are clean and well-maintained.
+S0921,22,Male,BSCE,1st Year,2.64,57.95,13.06,No,2,Dropout_Risk,Restrooms are usually clean and have the necessary supplies.
+S0922,20,Male,BSIT,4th Year,1.9,86.8,3.69,No,10,Dropout_Risk,The academic environment is competitive but supportive.
+S0923,22,Male,BSME,1st Year,2.24,65.67,12.49,No,5,Good,The academic environment is competitive but supportive.
+S0924,20,Female,BSME,3rd Year,3.83,97.11,11.39,Yes,8,Good,The campus grounds are clean and well-maintained.
+S0925,20,Female,BSME,3rd Year,3.83,97.11,11.39,Yes,8,Good,The guidance office is easy to approach and very helpful.
+S0926,25,Male,BSECE,4th Year,1.26,92.12,6.01,Yes,0,Probation,Our school celebrates student diversity through events and awareness weeks.
+S0927,24,Male,BSME,3rd Year,2.98,55.63,10.96,No,8,Probation,"The classrooms are bright, clean, and conducive to learning."
+S0928,23,Female,BSCE,1st Year,1.07,73.85,16.33,Yes,10,Good,The academic environment is competitive but supportive.
+S0929,21,Female,BSCS,3rd Year,3.07,72.8,5.64,Yes,4,Dropout_Risk,"The library is quiet and comfortable, with plenty of space to study."
+S0930,18,Male,BSCE,2nd Year,3.55,84.15,7.82,No,10,Good,Our computer labs are equipped with the latest software we need for our program.
+S0931,18,Female,BSCS,3rd Year,4.35,75.2,18.07,No,10,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0932,20,Male,BSME,3rd Year,3.2,76.43,10.25,Yes,9,Probation,Our school celebrates student diversity through events and awareness weeks.
+S0933,24,Male,BSIT,1st Year,3.82,64.19,18.25,Yes,4,Dropout_Risk,Our school celebrates student diversity through events and awareness weeks.
+S0934,24,Male,BSIT,2nd Year,3.89,86.8,12.3,Yes,9,Good,The academic environment is competitive but supportive.
+S0935,18,Female,BSECE,3rd Year,4.43,67.46,12.44,No,4,Dropout_Risk,Our computer labs are equipped with the latest software we need for our program.
+S0936,24,Female,BSCS,3rd Year,3.1,87.96,15.05,Yes,3,Good,The campus grounds are clean and well-maintained.
+S0937,21,Female,BSIT,3rd Year,3.02,98.22,18.57,No,6,Dropout_Risk,The guidance office is easy to approach and very helpful.
+S0938,18,Male,BSME,2nd Year,3.65,62.33,6.93,Yes,6,Dropout_Risk,Security guards are friendly and respectful. I feel safe walking around campus.
+S0939,21,Male,BSCS,1st Year,2.12,91.62,7.68,Yes,6,Probation,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0940,21,Female,BSECE,1st Year,3.15,82.41,10.87,No,1,Good,The guidance office is easy to approach and very helpful.
+S0941,22,Male,BSCS,4th Year,1.76,53.31,15.44,No,10,Probation,Restrooms are usually clean and have the necessary supplies.
+S0942,20,Male,BSECE,3rd Year,1.41,67.49,9.48,Yes,6,Dropout_Risk,Security guards are friendly and respectful. I feel safe walking around campus.
+S0943,20,Female,BSCE,1st Year,4.7,70.97,17.29,No,10,Probation,The academic environment is competitive but supportive.
+S0944,23,Female,BSCS,2nd Year,3.47,96.13,4.9,Yes,2,Probation,The academic environment is competitive but supportive.
+S0945,18,Female,BSECE,3rd Year,4.43,67.46,12.44,No,4,Dropout_Risk,Our school celebrates student diversity through events and awareness weeks.
+S0946,25,Male,BSME,4th Year,3.58,76.61,7.66,Yes,1,Dropout_Risk,The campus grounds are clean and well-maintained.
+S0947,24,Female,BSIT,1st Year,3.93,59.69,13.15,Yes,0,Dropout_Risk,Security guards are friendly and respectful. I feel safe walking around campus.
+S0948,25,Female,BSIT,4th Year,3.54,60.22,18.23,No,6,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0949,20,Male,BSIT,4th Year,1.9,86.8,3.69,No,10,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0950,23,Female,BSCE,2nd Year,2.18,86.2,0.63,No,5,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0951,18,Female,BSCS,4th Year,2.09,52.49,6.86,Yes,2,Dropout_Risk,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0952,24,Female,BSECE,4th Year,1.99,84.83,8.36,Yes,8,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0953,22,Male,BSCS,3rd Year,2.67,86.87,13.65,No,10,Dropout_Risk,The academic environment is competitive but supportive.
+S0954,18,Male,BSIT,1st Year,2.78,60.3,2.55,Yes,6,Probation,The academic environment is competitive but supportive.
+S0955,24,Female,BSIT,4th Year,2.46,69.01,3.86,Yes,5,Dropout_Risk,The academic environment is competitive but supportive.
+S0956,23,Female,BSME,4th Year,3.95,62.52,13.86,Yes,10,Dropout_Risk,The guidance office is easy to approach and very helpful.
+S0957,20,Female,BSECE,1st Year,2.19,77.29,18.59,Yes,5,Probation,"The library is quiet and comfortable, with plenty of space to study."
+S0958,20,Male,BSECE,2nd Year,1.81,80.52,1.99,No,7,Probation,The campus grounds are clean and well-maintained.
+S0959,23,Female,BSCS,1st Year,4.82,74.09,19.62,No,6,Probation,"The classrooms are bright, clean, and conducive to learning."
+S0960,20,Female,BSECE,1st Year,2.19,77.29,18.59,Yes,5,Probation,The guidance office is easy to approach and very helpful.
+S0961,23,Female,BSCS,1st Year,4.82,74.09,19.62,No,6,Probation,The guidance office is easy to approach and very helpful.
+S0962,23,Male,BSIT,2nd Year,4.78,51.88,11.04,Yes,4,Dropout_Risk,"The library is quiet and comfortable, with plenty of space to study."
+S0963,18,Female,BSECE,4th Year,1.19,80.19,17.45,Yes,2,Good,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0964,23,Male,BSECE,4th Year,2.99,70.35,16.88,No,6,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0965,20,Male,BSIT,1st Year,1.57,87.81,5.74,Yes,7,Dropout_Risk,Security guards are friendly and respectful. I feel safe walking around campus.
+S0966,22,Male,BSCE,1st Year,2.91,94.45,5.91,No,1,Dropout_Risk,"The classrooms are bright, clean, and conducive to learning."
+S0967,21,Female,BSIT,3rd Year,3.02,98.22,18.57,No,6,Dropout_Risk,"The library is quiet and comfortable, with plenty of space to study."
+S0968,22,Male,BSECE,2nd Year,1.55,66.11,13.93,Yes,7,Probation,"The classrooms are bright, clean, and conducive to learning."
+S0969,18,Female,BSECE,3rd Year,2.36,57.32,6.78,No,0,Dropout_Risk,The guidance office is easy to approach and very helpful.
+S0970,22,Male,BSCS,3rd Year,2.67,86.87,13.65,No,10,Dropout_Risk,The guidance office is easy to approach and very helpful.
+S0971,25,Male,BSECE,2nd Year,4.65,61.98,16.6,No,7,Good,"The library is quiet and comfortable, with plenty of space to study."
+S0972,25,Male,BSME,4th Year,3.58,76.61,7.66,Yes,1,Dropout_Risk,"The library is quiet and comfortable, with plenty of space to study."
+S0973,20,Male,BSME,1st Year,4.32,75.19,6.25,No,2,Probation,The guidance office is easy to approach and very helpful.
+S0974,20,Male,BSCE,4th Year,4.99,92.01,0.87,No,0,Probation,There’s a culture of respect here. It feels like a second home because of how welcoming everyone is.
+S0975,23,Female,BSME,3rd Year,1.99,88.93,8.18,Yes,9,Good,Our school celebrates student diversity through events and awareness weeks.
+S0976,20,Male,BSME,1st Year,4.32,75.19,6.25,No,2,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0977,18,Male,BSCS,2nd Year,3.64,68.1,11.18,No,2,Good,Our computer labs are equipped with the latest software we need for our program.
+S0978,25,Male,BSECE,2nd Year,4.65,61.98,16.6,No,7,Good,The campus grounds are clean and well-maintained.
+S0979,23,Female,BSIT,2nd Year,1.53,99.56,14.86,Yes,0,Dropout_Risk,The academic environment is competitive but supportive.
+S0980,21,Female,BSCS,3rd Year,4.89,71.46,7.72,No,1,Good,The academic environment is competitive but supportive.
+S0981,18,Male,BSECE,1st Year,3.15,60.77,12.6,No,4,Probation,Restrooms are usually clean and have the necessary supplies.
+S0982,23,Male,BSECE,4th Year,2.99,70.35,16.88,No,6,Probation,"The library is quiet and comfortable, with plenty of space to study."
+S0983,20,Male,BSCE,4th Year,1.2,67.38,13.7,Yes,9,Good,The guidance office is easy to approach and very helpful.
+S0984,19,Female,BSECE,3rd Year,4.33,97.27,14.4,No,1,Probation,"The library is quiet and comfortable, with plenty of space to study."
+S0985,20,Male,BSME,1st Year,4.32,75.19,6.25,No,2,Probation,"The classrooms are bright, clean, and conducive to learning."
+S0986,24,Female,BSME,1st Year,3.1,64.26,14.64,Yes,7,Probation,Our school celebrates student diversity through events and awareness weeks.
+S0987,18,Female,BSME,1st Year,3.18,78.68,14.98,No,10,Dropout_Risk,The guidance office is easy to approach and very helpful.
+S0988,24,Male,BSIT,2nd Year,3.89,86.8,12.3,Yes,9,Good,"The classrooms are bright, clean, and conducive to learning."
+S0989,25,Male,BSECE,1st Year,2.25,83.49,16.99,Yes,2,Probation,The academic environment is competitive but supportive.
+S0990,20,Male,BSCE,4th Year,1,56.17,13.97,No,5,Dropout_Risk,Our computer labs are equipped with the latest software we need for our program.
+S0991,18,Male,BSIT,1st Year,4.56,74.87,12.35,No,1,Probation,The guidance office is easy to approach and very helpful.
+S0992,23,Female,BSME,3rd Year,1.48,76.88,8.53,Yes,1,Good,Restrooms are usually clean and have the necessary supplies.
+S0993,23,Male,BSCE,1st Year,4.33,78.51,1.51,Yes,4,Good,Our computer labs are equipped with the latest software we need for our program.
+S0994,23,Female,BSCE,2nd Year,2.18,86.2,0.63,No,5,Dropout_Risk,Restrooms are usually clean and have the necessary supplies.
+S0995,24,Male,BSME,3rd Year,2.98,55.63,10.96,No,8,Probation,"The library is quiet and comfortable, with plenty of space to study."
+S0996,22,Male,BSCS,4th Year,1.76,53.31,15.44,No,10,Probation,Our computer labs are equipped with the latest software we need for our program.
+S0997,24,Female,BSIT,4th Year,2.46,69.01,3.86,Yes,5,Dropout_Risk,The guidance office is easy to approach and very helpful.
+S0998,20,Male,BSIT,2nd Year,3.96,52.69,17.79,No,10,Good,Security guards are friendly and respectful. I feel safe walking around campus.
+S0999,21,Female,BSCS,3rd Year,4.89,71.46,7.72,No,1,Good,Our school celebrates student diversity through events and awareness weeks.
+S1000,21,Male,BSME,4th Year,3.61,57.28,9.89,Yes,4,Good,The guidance office is easy to approach and very helpful.
