@@ -1,0 +1,10 @@
+Flask
+pandas
+joblib
+gensim
+nltk
+xgboost
+scikit-learn
+fuzzywuzzy
+python-Levenshtein
+gunicorn 

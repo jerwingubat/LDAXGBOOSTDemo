@@ -11,6 +11,8 @@ import nltk
 from nltk.corpus import stopwords
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
+from flask_socketio import SocketIO
+import os
 
 nltk.download('stopwords')
 
@@ -212,4 +214,5 @@ def maintenance_system():
     return render_template('maintenance.html', active='system', section_name='System Maintenance')
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    socketio = SocketIO(app, async_mode='threading')
+    socketio.run(app, host='0.0.0.0', port=int(os.environ.get("PORT", 5000)), allow_unsafe_werkzeug=True)
