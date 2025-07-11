@@ -88,46 +88,56 @@ def index():
 def predict():
     data = {key: request.form.get(key, '') for key in feature_names}
     name = request.form.get('Name', '')
+
     for col in ["Age", "GWA", "Attendance_Rate", "Library_Usage_Hours", "Counseling_Sessions"]:
-        data[col] = float(data[col])
+        try:
+            data[col] = float(data[col])
+        except:
+            data[col] = 0.0
+
     for col in ["Gender", "Course", "Year_Level", "Scholarship_Status"]:
-        data[col] = safe_label_encode(encoders[col], data[col])
+        data[col] = safe_label_encode(encoders[col], data[col], default=0)
+
     feedback = request.form['School_Environment_Feedback']
     cleaned = preprocess_text(feedback)
     cleaned = trigram_mod[bigram_mod[cleaned]]
     bow = dictionary.doc2bow(cleaned)
     topic_dist = lda_model.get_document_topics(bow, minimum_probability=0)
     topic_scores = [score for _, score in sorted(topic_dist)]
+
     for i, score in enumerate(topic_scores):
         data[f'Topic_{i+1}'] = score
+
     data.pop("School_Environment_Feedback", None)
+
     df = pd.DataFrame([data])
     df = df[model.get_booster().feature_names]
+
     pred = model.predict(df)[0]
     pred_label = target_encoder.inverse_transform([pred])[0]
-    proba = model.predict_proba(df)[0]
-    risk_score = float(max(proba))
-    if risk_score >= 0.7:
-        risk_level = "Dropout Risk"
-        recommendations = "Immediate intervention recommended."
-    elif risk_score >= 0.4:
-        risk_level = "Good"
-        recommendations = "Monitor and provide support."
-    else:
-        risk_level = "Probation"
-        recommendations = "No immediate action needed."
+
+    recommendation_map = {
+        "Dropout Risk": "Immediate intervention recommended.",
+        "Probation": "Monitor and provide support.",
+        "Good": "No immediate action needed."
+    }
+
+    risk_level = pred_label
+    recommendations = recommendation_map.get(pred_label, "No recommendation available.")
+
     options = {
         "Gender": encoders["Gender"].classes_,
         "Course": encoders["Course"].classes_,
         "Year_Level": encoders["Year_Level"].classes_,
         "Scholarship_Status": encoders["Scholarship_Status"].classes_,
     }
+
     return render_template(
         "index.html",
         prediction=pred_label,
         options=options,
         name=name,
-        risk_score=f"{risk_score:.2f}",
+        risk_score="N/A",
         risk_level=risk_level,
         recommendations=recommendations
     )

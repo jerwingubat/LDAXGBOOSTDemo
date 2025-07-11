@@ -1,4 +1,4 @@
-Student ID,Age,Gender,Course,Year Level,GWA,Attendance Rate,Library Usage Hours,Counseling Sessions,Scholarship Status,Risk Class,Behavioral Data
+Student ID,Age,Gender,Course,Year Level,GWA,Attendance Rate,Library Usage Hours,Counseling Sessions,Scholarship Status,Risk Class,School_Environment_Feedback
 S0001,24,Male,BSCrim,Junior,2.07,85.56,10.9,1,No,,"There is a lack of sufficient resources, especially in the library."
 S0002,21,Male,BSCS,Junior,3.72,90.48,10.2,8,No,,The campus facilities are adequate but could use improvements.
 S0003,30,Male,BSAcc,Sophomore,1.82,67.43,12.7,7,No,,"The academic environment is positive, and I have good peer support."

@@ -17,7 +17,7 @@ app = Flask(__name__)
 UPLOAD_FOLDER = 'uploads'
 ALLOWED_EXTENSIONS = {'csv'}
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB limit
+app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
 
 if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
@@ -36,7 +36,7 @@ with open('bigram_mod.pkl', 'rb') as f:
 with open('trigram_mod.pkl', 'rb') as f:
     trigram_mod = pickle.load(f)
 
-NUM_TOPICS = 3  # Change this if your LDA model uses a different number of topics
+NUM_TOPICS = 3
 
 def preprocess_text(text):
     text = str(text).lower()
@@ -97,15 +97,14 @@ def predict():
     df = pd.DataFrame([data])
     df = df[model.get_booster().feature_names]
 
-    # Prediction
+
     pred = model.predict(df)[0]
     pred_label = target_encoder.inverse_transform([pred])[0]
 
-    # Risk Score (probability of predicted class)
-    proba = model.predict_proba(df)[0]
-    risk_score = float(max(proba))  # Probability of the predicted class
 
-    # Risk Level logic
+    proba = model.predict_proba(df)[0]
+    risk_score = float(max(proba))
+
     if risk_score >= 0.7:
         risk_level = "High"
         recommendations = "Immediate intervention recommended."
@@ -147,14 +146,13 @@ def batch_predict():
             filename = secure_filename(file.filename)
             filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
             file.save(filepath)
-            # Read and preprocess CSV
             df = pd.read_csv(filepath, encoding="ISO-8859-1")
-            # Ensure columns match feature_names
+            
             missing_cols = [col for col in feature_names if col not in df.columns]
             if missing_cols:
                 flash(f'Missing columns: {missing_cols}')
                 return redirect(request.url)
-            # Convert types
+        
             for col in ["Age", "GWA", "Attendance_Rate", "Library_Usage_Hours", "Counseling_Sessions"]:
                 df[col] = df[col].astype(float)
             for col in ["Gender", "Course", "Year_Level", "Scholarship_Status"]:
@@ -162,7 +160,7 @@ def batch_predict():
             preds = model.predict(df[feature_names])
             pred_labels = target_encoder.inverse_transform(preds)
             df['Predicted_Academic_Standing'] = pred_labels
-            # Convert Scholarship_Status back to Yes/No for display
+        
             if 'Scholarship_Status' in df.columns:
                 inv_map = {v: k for k, v in enumerate(encoders['Scholarship_Status'].classes_)}
                 yes_val = inv_map.get('Yes', None)
@@ -187,7 +185,6 @@ def feedback():
     name = request.form.get('Name', '')
     prediction = request.form.get('Prediction', '')
     feedback_text = request.form.get('Feedback', '')
-    # Save feedback to CSV
     import csv
     with open('feedback.csv', 'a', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
